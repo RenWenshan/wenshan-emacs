@@ -1,0 +1,27 @@
+[submodule "site-lisp/extensions/cache-path-from-shell"]
+	path = site-lisp/extensions/cache-path-from-shell
+	url = https://github.com/manateelazycat/cache-path-from-shell.git
+[submodule "site-lisp/extensions/exec-path-from-shell"]
+	path = site-lisp/extensions/exec-path-from-shell
+	url = https://github.com/purcell/exec-path-from-shell.git
+[submodule "magit-popup"]
+	path = site-lisp/extensions/magit-popup
+	url = https://github.com/magit/magit-popup.git
+[submodule "ghub"]
+	path = site-lisp/extensions/ghub
+	url = https://github.com/magit/ghub.git
+[submodule "with-editor"]
+	path = site-lisp/extensions/with-editor
+	url = https://github.com/magit/with-editor.git
+[submodule "dash"]
+	path = site-lisp/extensions/dash
+	url = https://github.com/magnars/dash.el.git
+[submodule "magit"]
+	path = site-lisp/extensions/magit
+	url = https://github.com/magit/magit.git
+[submodule "graphql"]
+	path = site-lisp/extensions/graphql
+	url = https://github.com/vermiculus/graphql.el.git
+[submodule "treepy"]
+	path = site-lisp/extensions/treepy
+	url = https://github.com/volrath/treepy.el.git
