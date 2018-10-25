@@ -1,0 +1,47 @@
+#+TITLE: GNU Emacs configuration of Wenshan Ren
+
+* setup
+
+- clone this repository and run =git submodule update --init= to clone submodules.
+
+- in =~/.emacs= (replace =<path-to-wenshan-emacs>= with the actual path):
+  #+BEGIN_SRC emacs-lisp
+    (defvar wenshan-emacs-root-dir (file-truename "<path-to-wenshan-emacs>/site-lisp"))
+
+    (defun add-subdirs-to-load-path (dir)
+      "Recursive add directories to `load-path'."
+      (let ((default-directory (file-name-as-directory dir)))
+	(add-to-list 'load-path dir)
+	(normal-top-level-add-subdirs-to-load-path)))
+    (add-subdirs-to-load-path wenshan-emacs-root-dir)
+
+    (require 'init)
+  #+END_SRC
+
+- start emacs
+
+* architecture
+
+- =~/.emacs= add all sub directories of =wenshan-emacs/site-lisp= to =load-path=
+
+- and =~/.emacs= requires =wenshan-emacs/site-lisp/config/init.el=: the central configuration file.
+
+- =init.el= calls a list of sub configuration files that are in =wenshan-emacs/site-lisp/config/=
+
+- extensions are in =wenshan-emacs/site-lisp/extensions/=: some of them are git submodules.
+
+- static data (dictionaries, etc) are in =wenshan-emacs/site-lisp/data/=
+
+- major features
+
+  | feature             | plugin     |
+  |---------------------+------------|
+  | git                 | magit      |
+  | music player        | emms       |
+  | spell checking      | flyspell   |
+  | project interaction | projectile |
+  | sexp editing        | paredit    |
+  | CN input method     | pyim       |
+  | shell               | aweshell   |
+  | snippet             | yasnippet  |
+  | code folding        | yafolding  |
