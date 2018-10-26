@@ -5,6 +5,7 @@
   (require 'init-startup)      ; general configurations
   (require 'init-magit)	       ; git
   (require 'init-emms)	       ; media player
+  (require 'init-projectile)   ; project interaction
   )
 
 (provide 'init)

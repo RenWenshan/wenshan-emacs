@@ -28,3 +28,6 @@
 [submodule "emms"]
 	path = site-lisp/extensions/emms
 	url = https://git.savannah.gnu.org/git/emms.git
+[submodule "projectile"]
+	path = site-lisp/extensions/projectile
+	url = https://github.com/bbatsov/projectile.git
