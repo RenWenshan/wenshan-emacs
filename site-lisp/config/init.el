@@ -6,6 +6,7 @@
   (require 'init-magit)	       ; git
   (require 'init-emms)	       ; media player
   (require 'init-projectile)   ; project interaction
+  (require 'init-paredit)      ; s-expression editing
   )
 
 (provide 'init)
