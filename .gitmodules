@@ -46,3 +46,6 @@
 [submodule "posframe"]
 	path = site-lisp/extensions/posframe
 	url = https://github.com/tumashu/posframe.git
+[submodule "super-save"]
+	path = site-lisp/extensions/super-save
+	url = https://github.com/bbatsov/super-save.git
