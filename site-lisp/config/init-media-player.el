@@ -6,4 +6,4 @@
 
 (emms-default-players)
 
-(provide 'init-emms)
+(provide 'init-media-player)

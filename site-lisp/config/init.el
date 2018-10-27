@@ -2,13 +2,13 @@
 (defvar wenshan-emacs-extension-dir (concat wenshan-emacs-root-dir "/extensions"))
 (defvar wenshan-emacs-data-dir (concat wenshan-emacs-root-dir "/data"))
 
-(with-temp-message ""	       ; remove output from loading extensions
-  (require 'init-startup)      ; general configurations
-  (require 'init-magit)	       ; git
-  (require 'init-emms)	       ; media player
-  (require 'init-projectile)   ; project interaction
-  (require 'init-paredit)      ; s-expression editing
-  (require 'init-zh-input-method)
-  )
+(with-temp-message ""		; avoid output from loading extensions
+  (require 'init-startup)
+  (require 'init-version-control)
+  (require 'init-media-player)
+  (require 'init-project-interaction)
+  (require 'init-hacking)
+  (require 'init-zh-cn))
+
 
 (provide 'init)

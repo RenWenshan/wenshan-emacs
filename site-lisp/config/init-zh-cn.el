@@ -51,4 +51,4 @@
 ;; 探针函数: 强制将光标前的拼音字符串转换为中文
 (global-set-key (kbd "M-j") 'pyim-convert-code-at-point) 
 
-(provide 'init-zh-input-method)
+(provide 'init-zh-cn)
