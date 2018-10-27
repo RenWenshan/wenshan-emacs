@@ -34,3 +34,15 @@
 [submodule "paredit"]
 	path = site-lisp/extensions/paredit
 	url = http://mumble.net/~campbell/git/paredit.git/
+[submodule "pyim"]
+	path = site-lisp/extensions/pyim
+	url = https://github.com/tumashu/pyim.git
+[submodule "popup"]
+	path = site-lisp/extensions/popup
+	url = https://github.com/auto-complete/popup-el.git
+[submodule "async"]
+	path = site-lisp/extensions/async
+	url = https://github.com/jwiegley/emacs-async.git
+[submodule "posframe"]
+	path = site-lisp/extensions/posframe
+	url = https://github.com/tumashu/posframe.git
