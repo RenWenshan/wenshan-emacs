@@ -49,3 +49,9 @@
 [submodule "super-save"]
 	path = site-lisp/extensions/super-save
 	url = https://github.com/bbatsov/super-save.git
+[submodule "aweshell"]
+	path = site-lisp/extensions/aweshell
+	url = https://github.com/manateelazycat/aweshell.git
+[submodule "company"]
+	path = site-lisp/extensions/company
+	url = https://github.com/company-mode/company-mode.git

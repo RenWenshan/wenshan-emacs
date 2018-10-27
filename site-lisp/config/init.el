@@ -8,7 +8,8 @@
   (require 'init-media-player)
   (require 'init-project-interaction)
   (require 'init-hacking)
-  (require 'init-zh-cn))
-
+  (require 'init-zh-cn)
+  (require 'init-shell)
+  )
 
 (provide 'init)
