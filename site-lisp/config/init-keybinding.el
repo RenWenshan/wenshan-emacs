@@ -1,3 +1,5 @@
+(global-set-key (kbd "C-^") 'join-line)
+
 (global-set-key (kbd "C-c g") 'magit-status)
 
 (global-set-key (kbd "<XF86AudioPlay>") 'emms-pause)

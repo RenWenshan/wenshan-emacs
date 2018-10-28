@@ -19,7 +19,7 @@
 
 ;; use super-save instead of built-in auto-save
 (setq auto-save-default nil)
-(setq make-backup-files nil)   ; no need for backups since auto-saving
+(setq make-backup-files nil)		; no need for backups since auto-saving
 
 (require 'super-save)
 (super-save-mode +1)
@@ -28,6 +28,24 @@
 ;; easier window switching
 (require 'window-numbering)
 (window-numbering-mode t)
+
+(setq epa-pinentry-mode 'loopback)	; type epa password inside emacs
+
+(setq-default fill-column 120)		; line width 120
+
+;; font settings
+(set-frame-font "Dejavu Sans Mono-11" nil t)
+(dolist (charset '(kana han symbol cjk-misc bopomofo))
+  (set-fontset-font
+   (frame-parameter nil 'font) charset (font-spec :family "WenQuanYi Micro Hei Mono" :size 18)))
+
+(add-to-list 'default-frame-alist	; for new frames
+             '(font . "Dejavu Sans Mono-11")
+             '(dolist (charset '(kana han symbol cjk-misc bopomofo))
+                (set-fontset-font
+                 (frame-parameter nil 'font)
+                 charset
+		 (font-spec :family "WenQuanYi Micro Hei Mono" :size 18))))
 
 ;; start emacs server for fast emacsclient startup
 (server-start)
