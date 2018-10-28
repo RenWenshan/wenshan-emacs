@@ -1,6 +1,6 @@
 #+TITLE: GNU Emacs configuration of Wenshan Ren
 
-* setup
+* Setup
 
 - clone this repository and run =git submodule update --init= to clone submodules.
 
@@ -20,7 +20,13 @@
 
 - start emacs
 
-* architecture
+* Add New Extensions
+
+- select the sub init file it should go into, e.g. =init-startup.el=
+- find the extension's git url and add it by =M-x magit-submodule-add= (path: =wenshan-emacs/site-lisp/extensions/<library-name>=, name: =<library-name>=)
+- if needed, add corresponding keybindings to =init-keybinding.el=
+
+* Architecture
 
 - =~/.emacs= add all sub directories of =wenshan-emacs/site-lisp= to =load-path=
 
@@ -32,16 +38,17 @@
 
 - static data (dictionaries, etc) are in =wenshan-emacs/site-lisp/data/=
 
-- major features
+* Major Features
 
-  | feature             | plugin     |
-  |---------------------+------------|
-  | git                 | magit      |
-  | music player        | emms       |
-  | spell checking      | flyspell   |
-  | project interaction | projectile |
-  | sexp editing        | paredit    |
-  | CN input method     | pyim       |
-  | shell               | aweshell   |
-  | snippet             | yasnippet  |
-  | code folding        | yafolding  |
+  | feature                | plugin     |
+  |------------------------+------------|
+  | git                    | magit      |
+  | music player           | emms       |
+  | spell checking         | flyspell   |
+  | project interaction    | projectile |
+  | sexp editing           | paredit    |
+  | CN input method        | pyim       |
+  | shell                  | aweshell   |
+  | snippet                | yasnippet  |
+  | search and refactoring | color-rg   |
+  | code folding           | yafolding  |

@@ -55,3 +55,9 @@
 [submodule "company"]
 	path = site-lisp/extensions/company
 	url = https://github.com/company-mode/company-mode.git
+[submodule "color-rg"]
+	path = site-lisp/extensions/color-rg
+	url = https://github.com/manateelazycat/color-rg.git
+[submodule "s"]
+	path = site-lisp/extensions/s
+	url = https://github.com/magnars/s.el.git

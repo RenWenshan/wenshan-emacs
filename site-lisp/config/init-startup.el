@@ -6,6 +6,9 @@
 ;; get environment variables such as $PATH from the shell
 (require 'cache-path-from-shell)
 
+;; string manipulation functions
+(require 's)
+
 ;; "y or n" instead of "yes or no"
 (fset 'yes-or-no-p 'y-or-n-p)
 
