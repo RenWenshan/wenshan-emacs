@@ -34,18 +34,21 @@
 (setq-default fill-column 120)		; line width 120
 
 ;; font settings
-(set-frame-font "Dejavu Sans Mono-11" nil t)
+(set-face-attribute
+ 'default nil
+ :font (font-spec :name "-unknown-DejaVu Sans Mono-bold-normal-normal-*-*-*-*-*-m-0-iso10646-1"
+                  :weight 'normal
+                  :slant 'normal
+                  :size 12.5))
+
 (dolist (charset '(kana han symbol cjk-misc bopomofo))
   (set-fontset-font
-   (frame-parameter nil 'font) charset (font-spec :family "WenQuanYi Micro Hei Mono" :size 18)))
-
-(add-to-list 'default-frame-alist	; for new frames
-             '(font . "Dejavu Sans Mono-11")
-             '(dolist (charset '(kana han symbol cjk-misc bopomofo))
-                (set-fontset-font
-                 (frame-parameter nil 'font)
-                 charset
-		 (font-spec :family "WenQuanYi Micro Hei Mono" :size 18))))
+   (frame-parameter nil 'font)
+   charset
+   (font-spec :name "-unknown-WenQuanYi Micro Hei Mono-normal-normal-normal-*-*-*-*-*-*-0-iso10646-1"
+              :weight 'normal
+              :slant 'normal
+              :size 15.0)))
 
 ;; start emacs server for fast emacsclient startup
 (server-start)
