@@ -1,54 +1,65 @@
-#+TITLE: GNU Emacs configuration of Wenshan Ren
+#+TITLE: GNU Emacs Configuration of Wenshan Ren
 
 * Setup
 
-- clone this repository and run =git submodule update --init= to clone submodules.
+  - clone this repository and run =git submodule update --init= to clone submodules.
 
-- in =~/.emacs= (replace =<path-to-wenshan-emacs>= with the actual path):
-  #+BEGIN_SRC emacs-lisp
-    (defvar wenshan-emacs-root-dir (file-truename "<path-to-wenshan-emacs>/site-lisp"))
+  - in =~/.emacs= (replace =<path-to-wenshan-emacs>= with the actual path):
+    #+BEGIN_SRC emacs-lisp
+      (defvar wenshan-emacs-root-dir (file-truename "<path-to-wenshan-emacs>/site-lisp"))
 
-    (defun add-subdirs-to-load-path (dir)
-      "Recursive add directories to `load-path'."
-      (let ((default-directory (file-name-as-directory dir)))
-	(add-to-list 'load-path dir)
-	(normal-top-level-add-subdirs-to-load-path)))
-    (add-subdirs-to-load-path wenshan-emacs-root-dir)
+      (defun add-subdirs-to-load-path (dir)
+	"Recursive add directories to `load-path'."
+	(let ((default-directory (file-name-as-directory dir)))
+	  (add-to-list 'load-path dir)
+	  (normal-top-level-add-subdirs-to-load-path)))
+      (add-subdirs-to-load-path wenshan-emacs-root-dir)
 
-    (require 'init)
-  #+END_SRC
+      (require 'init)
+    #+END_SRC
 
-- start emacs
+  - start emacs.
 
 * Add New Extensions
 
-- select the sub init file it should go into, e.g. =init-startup.el=
-- find the extension's git url and add it by =M-x magit-submodule-add= (path: =wenshan-emacs/site-lisp/extensions/<library-name>=, name: =<library-name>=)
-- if needed, add corresponding keybindings to =init-keybinding.el=
+  - select the sub init file it should go into, e.g. =init-startup.el=.
+
+  - find the extension's git url and add it by =M-x magit-submodule-add= (path: =wenshan-emacs/site-lisp/extensions/<library-name>=, name: =<library-name>=).
+
+  - if needed, add corresponding keybindings to =init-keybinding.el=.
 
 * Architecture
 
-- =~/.emacs= add all sub directories of =wenshan-emacs/site-lisp= to =load-path=
+  - =~/.emacs= add all sub directories of =wenshan-emacs/site-lisp= to =load-path=.
 
-- and =~/.emacs= requires =wenshan-emacs/site-lisp/config/init.el=: the central configuration file.
+  - and =~/.emacs= requires =wenshan-emacs/site-lisp/config/init.el=: the central configuration file.
 
-- =init.el= calls a list of sub configuration files that are in =wenshan-emacs/site-lisp/config/=
+  - =init.el= calls a list of sub configuration files that are in =wenshan-emacs/site-lisp/config/=.
 
-- extensions are in =wenshan-emacs/site-lisp/extensions/=: some of them are git submodules.
+  - extensions are in =wenshan-emacs/site-lisp/extensions/=: some of them are git submodules.
 
-- static data (dictionaries, etc) are in =wenshan-emacs/site-lisp/data/=
+  - static data (dictionaries, etc) are in =wenshan-emacs/site-lisp/data/=.
+
+  - keybindings are placed in =wenshan-emacs/site-lisp/config/init-keybinding.el=: easier for maintenance and lookup.
 
 * Major Features
 
-  | feature                | plugin     |
-  |------------------------+------------|
-  | git                    | magit      |
-  | music player           | emms       |
-  | spell checking         | flyspell   |
-  | project interaction    | projectile |
-  | sexp editing           | paredit    |
-  | CN input method        | pyim       |
-  | shell                  | aweshell   |
-  | snippet                | yasnippet  |
-  | search and refactoring | color-rg   |
-  | code folding           | yafolding  |
+  | feature                | extension        |
+  |------------------------+------------------|
+  | git                    | magit            |
+  | music player           | emms             |
+  | spell checking         | flyspell         |
+  | project interaction    | projectile       |
+  | sexp editing           | paredit          |
+  | CN input method        | pyim             |
+  | shell                  | aweshell         |
+  | search and refactoring | color-rg         |
+  | window switching       | window-numbering |
+
+* Plans
+
+  - one-key from lazycat, I do forget keybindings from time to time.
+
+  - helm, good experience from using spacemacs
+
+  - yafolding, need to compare the existing code folding extensions first

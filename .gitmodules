@@ -61,3 +61,6 @@
 [submodule "s"]
 	path = site-lisp/extensions/s
 	url = https://github.com/magnars/s.el.git
+[submodule "window-numbering"]
+	path = site-lisp/extensions/window-numbering
+	url = https://github.com/nschum/window-numbering.el.git

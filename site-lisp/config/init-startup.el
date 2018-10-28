@@ -25,6 +25,10 @@
 (super-save-mode +1)
 (setq super-save-auto-save-when-idle t)
 
+;; easier window switching
+(require 'window-numbering)
+(window-numbering-mode t)
+
 ;; start emacs server for fast emacsclient startup
 (server-start)
 
