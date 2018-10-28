@@ -64,3 +64,6 @@
 [submodule "window-numbering"]
 	path = site-lisp/extensions/window-numbering
 	url = https://github.com/nschum/window-numbering.el.git
+[submodule "sdcv"]
+	path = site-lisp/extensions/sdcv
+	url = https://github.com/RenWenshan/sdcv.git
