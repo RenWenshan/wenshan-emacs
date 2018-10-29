@@ -28,6 +28,12 @@
 
   - if needed, add corresponding keybindings to =init-keybinding.el=.
 
+* Remove an Extension
+
+  - =M-x magit-submodule-popup=, tick =Force=, then press =k=, followed with the extension path.
+
+  - it requires git v2.12.0
+
 * Architecture
 
   - =~/.emacs= add all sub directories of =wenshan-emacs/site-lisp= to =load-path=.
@@ -55,6 +61,7 @@
   | shell                  | aweshell         |
   | search and refactoring | color-rg         |
   | window switching       | window-numbering |
+  | buffer switching       | awesome-tab      |
 
 * Plans
 

@@ -67,3 +67,6 @@
 [submodule "sdcv"]
 	path = site-lisp/extensions/sdcv
 	url = https://github.com/RenWenshan/sdcv.git
+[submodule "awesome-tab"]
+	path = site-lisp/extensions/awesome-tab
+	url = https://github.com/manateelazycat/awesome-tab.git

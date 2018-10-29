@@ -33,6 +33,10 @@
 
 (setq-default fill-column 120)		; line width 120
 
+;; easier buffer switching
+(require 'awesome-tab)
+(awesome-tab-mode t)
+
 ;; font settings
 (set-face-attribute
  'default nil

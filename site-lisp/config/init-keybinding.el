@@ -1,5 +1,8 @@
 (global-set-key (kbd "C-^") 'join-line)
 
+(global-set-key (kbd "C-<tab>") 'awesome-tab-forward-tab)    ; ctrl-tab
+(global-set-key (kbd "C-S-<tab>") 'awesome-tab-backward-tab) ; ctrl-shift-tab
+
 (global-set-key (kbd "C-c g") 'magit-status)
 
 (global-set-key (kbd "<XF86AudioPlay>") 'emms-pause)
