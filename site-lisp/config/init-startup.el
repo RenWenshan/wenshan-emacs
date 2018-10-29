@@ -57,6 +57,23 @@
 ;; prevent beep
 (setq ring-bell-function 'ignore)
 
+;; ace jump
+(autoload
+  'ace-jump-mode
+  "ace-jump-mode"
+  "Emacs quick move minor mode"
+  t)
+
+(autoload
+  'ace-jump-mode-pop-mark
+  "ace-jump-mode"
+  "Ace jump back"
+  t)
+
+(eval-after-load "ace-jump-mode"
+  '(ace-jump-mode-enable-mark-sync))
+
+
 ;; start emacs server for fast emacsclient startup
 (server-start)
 
