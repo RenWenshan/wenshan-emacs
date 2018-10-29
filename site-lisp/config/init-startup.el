@@ -50,6 +50,9 @@
               :slant 'normal
               :size 15.0)))
 
+;; prevent beep
+(setq ring-bell-function 'ignore)
+
 ;; start emacs server for fast emacsclient startup
 (server-start)
 
