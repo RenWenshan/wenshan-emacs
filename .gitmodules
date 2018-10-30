@@ -82,3 +82,21 @@
 [submodule "vi-navigate"]
 	path = site-lisp/extensions/vi-navigate
 	url = https://github.com/manateelazycat/vi-navigate.git
+[submodule "emacs-python-environment"]
+	path = site-lisp/extensions/emacs-python-environment
+	url = https://github.com/tkf/emacs-python-environment.git
+[submodule "emacs-deferred"]
+	path = site-lisp/extensions/emacs-deferred
+	url = https://github.com/kiwanami/emacs-deferred.git
+[submodule "emacs-epc"]
+	path = site-lisp/extensions/emacs-epc
+	url = https://github.com/kiwanami/emacs-epc.git
+[submodule "auto-complete"]
+	path = site-lisp/extensions/auto-complete
+	url = https://github.com/auto-complete/auto-complete.git
+[submodule "emacs-jedi"]
+	path = site-lisp/extensions/emacs-jedi
+	url = https://github.com/tkf/emacs-jedi.git
+[submodule "emacs-ctable"]
+	path = site-lisp/extensions/emacs-ctable
+	url = https://github.com/kiwanami/emacs-ctable.git
