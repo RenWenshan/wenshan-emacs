@@ -1,6 +1,12 @@
 (require 'paredit)
+(require 'flycheck)
 
-(add-hook 'prog-mode-hook '(lambda() (paredit-mode 1)))
+(add-hook 'prog-mode-hook
+	  '(lambda()
+	     (progn
+	       (paredit-mode t)
+	       (flycheck-mode t)
+	       )))
 
 (require 'init-python)
 

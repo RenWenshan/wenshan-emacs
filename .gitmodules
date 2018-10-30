@@ -100,3 +100,12 @@
 [submodule "emacs-ctable"]
 	path = site-lisp/extensions/emacs-ctable
 	url = https://github.com/kiwanami/emacs-ctable.git
+[submodule "flycheck"]
+	path = site-lisp/extensions/flycheck
+	url = https://github.com/flycheck/flycheck.git
+[submodule "pkg-info"]
+	path = site-lisp/extensions/pkg-info
+	url = https://github.com/lunaryorn/pkg-info.el.git
+[submodule "epl"]
+	path = site-lisp/extensions/epl
+	url = https://github.com/cask/epl.git

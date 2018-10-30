@@ -18,7 +18,7 @@
       (require 'init)
     #+END_SRC
 
-  - start emacs.
+  - start emacs, some external programs such as python-pylint are required for certain features, but you can install them when needed.
 
 * Add New Extensions
 
@@ -50,23 +50,26 @@
 
 * Major Features
 
-  | feature                | extension        |
-  |------------------------+------------------|
-  | git                    | magit            |
-  | music player           | emms             |
-  | spell checking         | flyspell         |
-  | project interaction    | projectile       |
-  | sexp editing           | paredit          |
-  | CN input method        | pyim             |
-  | shell                  | aweshell         |
-  | search and refactoring | color-rg         |
-  | window switching       | window-numbering |
-  | buffer switching       | awesome-tab      |
+  | feature                | extension               |
+  |------------------------+-------------------------|
+  | git                    | magit                   |
+  | music player           | emms                    |
+  | spell checking         | flyspell                |
+  | project interaction    | projectile              |
+  | sexp editing           | paredit                 |
+  | CN input method        | pyim                    |
+  | shell                  | aweshell                |
+  | search and refactoring | color-rg                |
+  | window switching       | window-numbering        |
+  | buffer switching       | awesome-tab             |
+  | cursor jump            | ace-jump                |
+  | incremental completion | helm                    |
+  | completion             | company & auto-complete |
+  | vi style navigation    | vi-navigate             |
+  | python                 | jedi                    |
 
 * Plans
 
   - one-key from lazycat, I do forget keybindings from time to time.
-
-  - helm, good experience from using spacemacs
 
   - yafolding, need to compare the existing code folding extensions first

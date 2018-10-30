@@ -84,6 +84,8 @@
 (require 'vi-navigate)
 (vi-navigate-load-keys)
 
+(require 'pkg-info)
+
 ;; start emacs server for fast emacsclient startup
 (server-start)
 
