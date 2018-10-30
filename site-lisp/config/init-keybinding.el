@@ -1,7 +1,7 @@
 (global-set-key (kbd "C-^") 'join-line)
 
-(global-set-key (kbd "C-<tab>") 'awesome-tab-forward-tab)    ; ctrl-tab
-(global-set-key (kbd "C-S-<tab>") 'awesome-tab-backward-tab) ; ctrl-shift-tab
+(global-set-key (kbd "C-<tab>") 'awesome-tab-forward-tab)	   ; ctrl-tab
+(global-set-key (kbd "C-<iso-lefttab>") 'awesome-tab-backward-tab) ; ctrl-shift-tab
 
 (global-set-key (kbd "s->") 'ace-jump-mode)
 (global-set-key (kbd "s-<") 'ace-jump-mode-pop-mark)
