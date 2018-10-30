@@ -79,3 +79,6 @@
 [submodule "helm-ls-git"]
 	path = site-lisp/extensions/helm-ls-git
 	url = https://github.com/emacs-helm/helm-ls-git.git
+[submodule "vi-navigate"]
+	path = site-lisp/extensions/vi-navigate
+	url = https://github.com/manateelazycat/vi-navigate.git

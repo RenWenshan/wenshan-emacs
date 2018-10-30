@@ -10,6 +10,8 @@
 (global-set-key (kbd "C-x b") 'helm-buffers-list)
 (global-set-key (kbd "M-x") 'helm-M-x)
 
+(global-set-key (kbd "s-t") 'read-only-mode)
+
 (global-set-key (kbd "C-c g") 'magit-status)
 
 (global-set-key (kbd "<XF86AudioPlay>") 'emms-pause)

@@ -80,6 +80,10 @@
 (require 'helm-ls-git)
 (require 'helm-command)
 
+;; vi style navigation for read-only buffers
+(require 'vi-navigate)
+(vi-navigate-load-keys)
+
 ;; start emacs server for fast emacsclient startup
 (server-start)
 
