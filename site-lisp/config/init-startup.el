@@ -73,6 +73,12 @@
 (eval-after-load "ace-jump-mode"
   '(ace-jump-mode-enable-mark-sync))
 
+;; helm
+(require 'helm)
+(require 'helm-files)
+(require 'helm-buffers)
+(require 'helm-ls-git)
+(require 'helm-command)
 
 ;; start emacs server for fast emacsclient startup
 (server-start)

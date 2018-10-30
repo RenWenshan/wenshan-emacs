@@ -73,3 +73,9 @@
 [submodule "ace-jump"]
 	path = site-lisp/extensions/ace-jump-mode
 	url = https://github.com/winterTTr/ace-jump-mode.git
+[submodule "helm"]
+	path = site-lisp/extensions/helm
+	url = https://github.com/emacs-helm/helm.git
+[submodule "helm-ls-git"]
+	path = site-lisp/extensions/helm-ls-git
+	url = https://github.com/emacs-helm/helm-ls-git.git
