@@ -12,18 +12,15 @@
 ;; "y or n" instead of "yes or no"
 (fset 'yes-or-no-p 'y-or-n-p)
 
-;; delete trailing whitespace on saving
-(add-hook 'before-save-hook
-          (lambda ()
-            (delete-trailing-whitespace)))
-
-;; use super-save instead of built-in auto-save
+;; auto-save settings, it does smart trailing space removal.
 (setq auto-save-default nil)
 (setq make-backup-files nil)		; no need for backups since auto-saving
 
-(require 'super-save)
-(super-save-mode +1)
-(setq super-save-auto-save-when-idle t)
+(require 'auto-save)
+(setq auto-save-idle 3)			; save if Emacs is idle for 3s
+(setq auto-save-silent t)
+(setq auto-save-delete-trailing-whitespace t)
+(auto-save-enable)
 
 ;; easier window switching
 (require 'window-numbering)
