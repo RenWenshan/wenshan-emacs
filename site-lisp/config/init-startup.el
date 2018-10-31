@@ -85,6 +85,11 @@
 (vi-navigate-load-keys)
 
 (require 'pkg-info)
+;; self defined commands
+(defun join-line-from-next-line ()
+  "Join line from next line."
+  (interactive)
+  (join-line -1))
 
 ;; start emacs server for fast emacsclient startup
 (server-start)
