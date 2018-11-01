@@ -58,9 +58,6 @@
 [submodule "window-numbering"]
 	path = site-lisp/extensions/window-numbering
 	url = https://github.com/nschum/window-numbering.el.git
-[submodule "sdcv"]
-	path = site-lisp/extensions/sdcv
-	url = https://github.com/RenWenshan/sdcv.git
 [submodule "awesome-tab"]
 	path = site-lisp/extensions/awesome-tab
 	url = https://github.com/manateelazycat/awesome-tab.git
@@ -106,3 +103,21 @@
 [submodule "multiple-cursors"]
 	path = site-lisp/extensions/multiple-cursors
 	url = https://github.com/magnars/multiple-cursors.el.git
+[submodule "magithub"]
+	path = site-lisp/extensions/magithub
+	url = https://github.com/vermiculus/magithub.git
+[submodule "sdcv"]
+	path = site-lisp/extensions/sdcv
+	url = https://github.com/manateelazycat/sdcv.git
+[submodule "s"]
+	path = site-lisp/extensions/s
+	url = https://github.com/magnars/s.el.git
+[submodule "ghub-plus"]
+	path = site-lisp/extensions/ghub-plus
+	url = https://github.com/vermiculus/ghub-plus.git
+[submodule "apiwrap"]
+	path = site-lisp/extensions/apiwrap
+	url = https://github.com/vermiculus/apiwrap.el.git
+[submodule "markdown-mode"]
+	path = site-lisp/extensions/markdown-mode
+	url = https://github.com/jrblevin/markdown-mode.git
