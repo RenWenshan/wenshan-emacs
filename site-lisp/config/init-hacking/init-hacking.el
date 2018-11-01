@@ -1,4 +1,5 @@
 (require 'paredit)
+(require 'pkg-info)			; required for flycheck
 (require 'flycheck)
 
 (add-hook 'prog-mode-hook

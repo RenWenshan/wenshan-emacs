@@ -81,7 +81,6 @@
 (require 'vi-navigate)
 (vi-navigate-load-keys)
 
-(require 'pkg-info)
 ;; multiple cursor editing
 (require 'multiple-cursors)
 
