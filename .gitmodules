@@ -106,3 +106,6 @@
 [submodule "epl"]
 	path = site-lisp/extensions/epl
 	url = https://github.com/cask/epl.git
+[submodule "multiple-cursors"]
+	path = site-lisp/extensions/multiple-cursors
+	url = https://github.com/magnars/multiple-cursors.el.git

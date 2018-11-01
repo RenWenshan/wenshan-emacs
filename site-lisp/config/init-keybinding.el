@@ -12,6 +12,12 @@
 
 (global-set-key (kbd "s-t") 'read-only-mode)
 
+(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+(global-set-key (kbd "C->") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+(global-set-key (kbd "C-c C->") 'mc/skip-to-next-like-this)
+
 (global-set-key (kbd "C-c g") 'magit-status)
 
 (global-set-key (kbd "<XF86AudioPlay>") 'emms-pause)

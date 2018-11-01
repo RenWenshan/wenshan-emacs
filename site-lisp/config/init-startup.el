@@ -82,6 +82,9 @@
 (vi-navigate-load-keys)
 
 (require 'pkg-info)
+;; multiple cursor editing
+(require 'multiple-cursors)
+
 ;; self defined commands
 (defun join-line-from-next-line ()
   "Join line from next line."
