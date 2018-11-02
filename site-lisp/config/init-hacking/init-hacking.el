@@ -6,7 +6,6 @@
 	  '(lambda()
 	     (progn
 	       (paredit-mode t)
-	       (flycheck-mode t)
 	       )))
 
 (require 'init-python)
