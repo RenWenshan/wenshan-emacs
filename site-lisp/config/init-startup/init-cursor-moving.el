@@ -14,7 +14,7 @@
 (eval-after-load "ace-jump-mode"
   '(ace-jump-mode-enable-mark-sync))
 
-;; vi style navigation for read-only buffers
+;; vi style navigation for read-only modes
 (require 'vi-navigate)
 (vi-navigate-load-keys)
 

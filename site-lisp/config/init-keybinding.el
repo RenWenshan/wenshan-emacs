@@ -10,7 +10,10 @@
 (global-set-key (kbd "C-x b") 'helm-buffers-list)
 (global-set-key (kbd "M-x") 'helm-M-x)
 
-(global-set-key (kbd "s-t") 'read-only-mode)
+(global-set-key (kbd "s-t") 'view-mode)
+(define-key view-mode-map (kbd "e") 'View-scroll-page-backward)
+(define-key view-mode-map (kbd "j") 'View-scroll-line-forward)
+(define-key view-mode-map (kbd "k") 'View-scroll-line-backward)
 
 (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)

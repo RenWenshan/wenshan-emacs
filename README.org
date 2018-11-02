@@ -78,9 +78,11 @@
 
 **** vi-navigate
 
-     It's easier for me to press single keys to move around in read only modes.
+     It's easier for me to press single keys to move around in read only modes, =vi-navigate= adds keybindings to a list modes that are supposed to be read-only.
 
      =e= for previous page, =space= for next page, and jklh for four directions.
+
+     Also, Emacs has a built-in =view-mode=, I've changed its keybindings to match =vi-navigate=.
 
 **** multiple-cursors
 
