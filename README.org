@@ -48,25 +48,125 @@
 
   - keybindings are placed in =wenshan-emacs/site-lisp/config/init-keybinding.el=: easier for maintenance and lookup.
 
-* Major Features
+* Major Features and Reasoning
 
-  | feature                | extension               |
-  |------------------------+-------------------------|
-  | git                    | magit                   |
-  | music player           | emms                    |
-  | spell checking         | flyspell                |
-  | project interaction    | projectile              |
-  | sexp editing           | paredit                 |
-  | CN input method        | pyim                    |
-  | shell                  | aweshell                |
-  | search and refactoring | color-rg                |
-  | window switching       | window-numbering        |
-  | buffer switching       | awesome-tab             |
-  | cursor jump            | ace-jump                |
-  | incremental completion | helm                    |
-  | completion             | company & auto-complete |
-  | vi style navigation    | vi-navigate             |
-  | python                 | jedi                    |
+** General Setup
+
+*** Modify Emacs Defaults
+
+    - disable tool bar, menu bar and scroll bar, I don't reply on them.
+    - answer y/n instead of yes/no, less typing.
+    - disable bell, it's annoying.
+    - type gpg password inside emacs, rather than in a pop-up window, it's difficult when Emacs is full-screen.
+    - set fill-column to 120, which suits my screen size better.
+
+*** Auto Save
+
+**** auto-save
+
+     I use lazycat's auto-save extension, it saves the buffer if Emacs has been idle for 1 second (by default, customizable). I prefer it over super-save because:
+
+     - can be configured to be silent -> I don't like seeing the message again and again in the mini-buffer
+     - does smart white space trailing
+     - works out of box
+
+*** Cursor Moving
+
+**** ace-jump
+
+     I don't use it very often, going to find out more about it.
+
+**** vi-navigate
+
+     It's easier for me to press single keys to move around in read only modes.
+
+     =e= for previous page, =space= for next page, and jklh for four directions.
+
+**** multiple-cursors
+
+     Watch Emacs Rocks to find out its awesomeness.
+
+**** drag-stuff
+
+     Move things up and down, sometimes it's easier than kill and yank.
+
+*** Buffers And Windows Switching
+
+**** window-numbering
+
+     Label each window with a number and press M-<num> to jump to it, best way of windows switching in my opinion.
+
+**** awesome-tab
+
+     An improved version of tabbar, I use it in combination with helm buffer switching. It reduces the burden of remembering opened buffer names.
+
+*** Helm
+
+*** Undo And Redo
+
+**** undo-tree
+
+     Emacs has a powerful undo system, undo-tree makes it easier to use by visualizing edits history as a tree.
+
+*** Font Settings
+
+    Dejavu Sans Mono for English and Wenquanyi （文泉驿） for Chinese, reasons:
+
+    - available on Debian GNU/Linux
+    - free software
+    - can be aligned nicely in org-mode tables
+
+*** Self Defined Functions
+
+** Version Control
+
+*** magit
+
+    The best git interface.
+
+*** magithub
+
+** Media Player
+
+*** emms
+
+    I use mplayer as its player and emms just works out of box.
+
+** Project Interaction
+
+*** projectile
+
+*** color-rg
+
+** Shell
+
+*** aweshell
+
+    I like eshell and aweshell is an enhanced eshell.
+
+** Hacking
+
+*** paredit
+
+    I prefer paredit over smartparents for its simplicity.
+
+*** flycheck
+
+*** jedi
+
+    Trying out for python hacking.
+
+** 中文
+
+*** pyim
+
+    在 GNU/Linux 下，经常碰到 Emacs 无法调用系统输入法的问题。我之前自己改写了 eim，以便使用双拼，后来发现了源于 eim 的 pyim，简单易用且支持双拼，于是换用 pyim。
+
+    这也是自由软件的妙处之一：源码可以活得更久远。
+
+*** sdcv
+
+    王勇写的星际译王插件，可以在 Emacs 中调用字典查词。
 
 * Plans
 

@@ -18,6 +18,9 @@
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 (global-set-key (kbd "C-c C->") 'mc/skip-to-next-like-this)
 
+(global-set-key (kbd "M-p") 'drag-stuff-up)
+(global-set-key (kbd "M-n") 'drag-stuff-down)
+
 (global-set-key (kbd "C-c g") 'magit-status)
 
 (global-set-key (kbd "<XF86AudioPlay>") 'emms-pause)

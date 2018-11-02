@@ -124,3 +124,6 @@
 [submodule "undo-tree"]
 	path = site-lisp/extensions/undo-tree
 	url = http://www.dr-qubit.org/git/undo-tree.git
+[submodule "drag-stuff"]
+	path = site-lisp/extensions/drag-stuff
+	url = https://github.com/rejeep/drag-stuff.el.git
