@@ -121,3 +121,6 @@
 [submodule "markdown-mode"]
 	path = site-lisp/extensions/markdown-mode
 	url = https://github.com/jrblevin/markdown-mode.git
+[submodule "undo-tree"]
+	path = site-lisp/extensions/undo-tree
+	url = http://www.dr-qubit.org/git/undo-tree.git

@@ -4,6 +4,7 @@
 (require 'init-cursor-moving)
 (require 'init-buffer-and-window-switching)
 (require 'init-helm)
+(require 'init-undo-and-redo)
 (require 'init-font-settings)
 (require 'init-self-defined-functions)
 
