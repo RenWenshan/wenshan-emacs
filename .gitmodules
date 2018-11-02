@@ -127,3 +127,6 @@
 [submodule "drag-stuff"]
 	path = site-lisp/extensions/drag-stuff
 	url = https://github.com/rejeep/drag-stuff.el.git
+[submodule "disable-mouse"]
+	path = site-lisp/extensions/disable-mouse
+	url = https://github.com/purcell/disable-mouse.git

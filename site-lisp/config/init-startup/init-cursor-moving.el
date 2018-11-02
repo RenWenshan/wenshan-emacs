@@ -23,4 +23,7 @@
 (require 'drag-stuff)
 (drag-stuff-global-mode t)
 
+(require 'disable-mouse)
+(disable-mouse-global-mode t)
+
 (provide 'init-cursor-moving)

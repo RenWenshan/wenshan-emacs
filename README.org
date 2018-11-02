@@ -92,6 +92,10 @@
 
      Move things up and down, sometimes it's easier than kill and yank.
 
+**** disable-mouse
+
+     It's distracting to use a laptop when you touch the touch-pad without intention and it changes where your cursor is all the time.
+
 *** Buffers And Windows Switching
 
 **** window-numbering
