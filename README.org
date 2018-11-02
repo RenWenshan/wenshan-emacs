@@ -52,6 +52,10 @@
 
 ** General Setup
 
+*** No theme
+
+    I tried various color themes in the past, now I just want to use the default Emacs theme to avoid troubles because any well-designed extension should support the default theme.
+
 *** Modify Emacs Defaults
 
     - disable tool bar, menu bar and scroll bar, I don't reply on them.
