@@ -158,7 +158,7 @@
 
 *** paredit
 
-    I prefer paredit over smartparents for its simplicity.
+    I prefer paredit over smartparens for its simplicity.
 
 *** flycheck
 
