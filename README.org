@@ -163,6 +163,10 @@
 
 *** flycheck
 
+*** code folding
+
+    Used to use yafoding, but it seems hs-minor-mode is sufficient after configuration.
+
 *** jedi
 
     Trying out for python hacking.
@@ -183,4 +187,4 @@
 
   - one-key from lazycat, I do forget keybindings from time to time.
 
-  - yafolding, need to compare the existing code folding extensions first
+  - +yafolding, need to compare the existing code folding extensions first+ -> built-in hs-minor-mode seems to be sufficient
