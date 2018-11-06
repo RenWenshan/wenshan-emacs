@@ -10,6 +10,8 @@
 (global-set-key (kbd "C-x b") 'helm-buffers-list)
 (global-set-key (kbd "M-x") 'helm-M-x)
 
+(global-set-key (kbd "s-u") 'revert-buffer)
+
 (global-set-key (kbd "s-t") 'view-mode)
 (define-key view-mode-map (kbd "e") 'View-scroll-page-backward)
 (define-key view-mode-map (kbd "j") 'View-scroll-line-forward)
