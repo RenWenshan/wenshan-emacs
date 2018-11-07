@@ -130,3 +130,6 @@
 [submodule "disable-mouse"]
 	path = site-lisp/extensions/disable-mouse
 	url = https://github.com/purcell/disable-mouse.git
+[submodule "company-english-helper"]
+	path = site-lisp/extensions/company-english-helper
+	url = https://github.com/manateelazycat/company-english-helper.git
