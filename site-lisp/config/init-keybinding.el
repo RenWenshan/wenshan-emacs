@@ -13,9 +13,14 @@
 (global-set-key (kbd "s-u") 'revert-buffer)
 
 (global-set-key (kbd "s-t") 'view-mode)
-(define-key view-mode-map (kbd "e") 'View-scroll-page-backward)
-(define-key view-mode-map (kbd "j") 'View-scroll-line-forward)
-(define-key view-mode-map (kbd "k") 'View-scroll-line-backward)
+(add-hook 'view-mode-hook
+	  (lambda ()
+	    (progn
+	      (define-key view-mode-map (kbd "e") 'View-scroll-page-backward)
+	      (define-key view-mode-map (kbd "j") 'View-scroll-line-forward)
+	      (define-key view-mode-map (kbd "k") 'View-scroll-line-backward)
+	      (define-key view-mode-map (kbd "/") 'ace-jump-mode)
+	      (define-key view-mode-map (kbd "y") 'sdcv-search-pointer+))))
 
 (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)

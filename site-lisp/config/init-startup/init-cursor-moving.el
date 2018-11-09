@@ -16,6 +16,7 @@
 
 ;; vi style navigation for read-only modes
 (require 'vi-navigate)
+(setq vi-navigate-key-alist (cons '("/" . ace-jump-mode) vi-navigate-key-alist))
 (vi-navigate-load-keys)
 
 (require 'multiple-cursors)
