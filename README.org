@@ -58,7 +58,7 @@
 
 *** Modify Emacs Defaults
 
-    - disable tool bar, menu bar and scroll bar, I don't reply on them.
+    - disable tool bar, menu bar and scroll bar, I don't rely on them.
     - answer y/n instead of yes/no, less typing.
     - disable bell, it's annoying.
     - type gpg password inside emacs, rather than in a pop-up window, it's difficult when Emacs is full-screen.
@@ -79,7 +79,9 @@
 
 **** ace-jump
 
-     I don't use it very often, going to find out more about it.
+     +I don't use it very often, going to find out more about it.+
+
+     Find it is useful when bundled with =vi-navigate=. I bound it to =/=, so in read-only modes such as *Info-mode*, I can press =/=, followed with two keystrokes to get to where I want (so I can then press =y= to trigger sdcv for translation).
 
 **** vi-navigate
 
@@ -128,6 +130,10 @@
     - can be aligned nicely in org-mode tables
 
 *** Self Defined Functions
+
+*** atomic-chrome
+
+    Edit any text areas in Firefox/Chrome, need to install corresponding browser plugins.
 
 ** Version Control
 
@@ -182,6 +188,10 @@
 *** sdcv
 
     王勇写的星际译王插件，可以在 Emacs 中调用字典查词。
+
+*** company-english-helper
+
+    英文写作提示，蛮好用的。
 
 * Plans
 
