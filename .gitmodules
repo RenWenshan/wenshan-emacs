@@ -133,3 +133,9 @@
 [submodule "company-english-helper"]
 	path = site-lisp/extensions/company-english-helper
 	url = https://github.com/manateelazycat/company-english-helper.git
+[submodule "atomic-chrome"]
+	path = site-lisp/extensions/atomic-chrome
+	url = https://github.com/raxod502/atomic-chrome.git
+[submodule "emacs-websocket"]
+	path = site-lisp/extensions/emacs-websocket
+	url = https://github.com/ahyatt/emacs-websocket.git

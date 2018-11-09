@@ -10,4 +10,7 @@
 
 (server-start)				; start emacs server for fast emacsclient startup
 
+(require 'atomic-chrome)
+(atomic-chrome-start-server)
+
 (provide 'init-startup)
