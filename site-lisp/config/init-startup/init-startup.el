@@ -7,10 +7,6 @@
 (require 'init-undo-and-redo)
 (require 'init-font-settings)
 (require 'init-self-defined-functions)
-
-(server-start)				; start emacs server for fast emacsclient startup
-
-(require 'atomic-chrome)
-(atomic-chrome-start-server)
+(require 'init-emacs-server)
 
 (provide 'init-startup)

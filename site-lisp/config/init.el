@@ -10,7 +10,6 @@
   (require 'init-hacking)
   (require 'init-zh-cn)
   (require 'init-shell)
-  (require 'init-keybinding)
-  )
+  (require 'init-keybinding))
 
 (provide 'init)
