@@ -7,5 +7,6 @@
 (setq epa-pinentry-mode 'loopback)	; type epa password inside emacs
 (setq-default fill-column 120)		; line width 120
 (recentf-mode t)			; keep a list of recently opened files
+(winner-mode t)				; record the changes in window configuration
 
 (provide 'init-modify-emacs-defaults)
