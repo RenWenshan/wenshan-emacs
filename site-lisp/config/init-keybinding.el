@@ -48,9 +48,9 @@
 (define-key awesome-pair-mode-map (kbd "M-{") 'awesome-pair-wrap-curly)
 (define-key awesome-pair-mode-map (kbd "M-(") 'awesome-pair-wrap-round)
 (define-key awesome-pair-mode-map (kbd "M-)") 'awesome-pair-unwrap)
-(define-key awesome-pair-mode-map (kbd "M-n") 'awesome-pair-jump-right)
-(define-key awesome-pair-mode-map (kbd "M-p") 'awesome-pair-jump-left)
-(define-key awesome-pair-mode-map (kbd "M-:") 'awesome-pair-jump-out-pair-and-newline)
+(define-key awesome-pair-mode-map (kbd "C-M-n") 'awesome-pair-jump-right)
+(define-key awesome-pair-mode-map (kbd "C-M-p") 'awesome-pair-jump-left)
+(define-key awesome-pair-mode-map (kbd "C-M-:") 'awesome-pair-jump-out-pair-and-newline)
 
 (global-set-key (kbd "M-j") 'pyim-convert-code-at-point)
 
