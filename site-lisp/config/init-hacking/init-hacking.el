@@ -5,5 +5,6 @@
 (require 'init-code-folding)
 
 (require 'init-python)
+(require 'init-javascript)
 
 (provide 'init-hacking)

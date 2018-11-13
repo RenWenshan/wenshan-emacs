@@ -139,3 +139,6 @@
 [submodule "awesome-pair"]
 	path = site-lisp/extensions/awesome-pair
 	url = https://github.com/manateelazycat/awesome-pair.git
+[submodule "js2-mode"]
+	path = site-lisp/extensions/js2-mode
+	url = https://github.com/mooz/js2-mode.git
