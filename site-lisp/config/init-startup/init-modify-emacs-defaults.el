@@ -6,5 +6,6 @@
 (setq ring-bell-function 'ignore)	; prevent beep
 (setq epa-pinentry-mode 'loopback)	; type epa password inside emacs
 (setq-default fill-column 120)		; line width 120
+(recentf-mode t)			; keep a list of recently opened files
 
 (provide 'init-modify-emacs-defaults)

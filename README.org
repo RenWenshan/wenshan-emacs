@@ -63,7 +63,8 @@
     - disable bell, it's annoying.
     - type gpg password inside emacs, rather than in a pop-up window, it's difficult when Emacs is full-screen.
     - set fill-column to 120, which suits my screen size better.
-    - diable cursor blinking, it's too distracting.
+    - disable cursor blinking, it's too distracting.
+    - remember recently opened files
 
 *** Auto Save
 
