@@ -1,4 +1,4 @@
-(require 'init-paredit)
+(require 'init-parenthesis-completion)
 
 (require 'pkg-info)			; required for flycheck
 (require 'flycheck)

@@ -163,9 +163,9 @@
 
 ** Hacking
 
-*** paredit
+*** parenthesis completion
 
-    I prefer paredit over smartparens for its simplicity.
+    I prefer paredit over smartparens for its simplicity. Then Lazycat published awesome-pair based on the idea of paredit and I switched to it.
 
 *** flycheck
 
