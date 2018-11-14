@@ -8,6 +8,7 @@
 (setq-default fill-column 120)		; line width 120
 (recentf-mode t)			; keep a list of recently opened files
 (winner-mode t)				; record the changes in window configuration
+(setq-default indent-tabs-mode nil)     ; no tabs for indentation
 (add-to-list 'auto-mode-alist '("\\.txt\\'" . org-mode)) ; use org-mode for txt files
 
 (provide 'init-modify-emacs-defaults)
