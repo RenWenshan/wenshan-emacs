@@ -1,4 +1,5 @@
 (require 'projectile)
+(projectile-mode t)
 
 (require 'color-rg)
 
