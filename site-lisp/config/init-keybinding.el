@@ -1,4 +1,4 @@
-(global-set-key (kbd "C-^") 'join-line-from-next-line)
+(global-set-key (kbd "C-^") 'wenshan-join-line-from-next-line)
 
 (global-set-key (kbd "C-<tab>") 'awesome-tab-forward-tab)	   ; ctrl-tab
 (global-set-key (kbd "C-<iso-lefttab>") 'awesome-tab-backward-tab) ; ctrl-shift-tab
