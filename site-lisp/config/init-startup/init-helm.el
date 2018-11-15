@@ -5,6 +5,4 @@
 (require 'helm-command)
 (require 'helm-imenu)
 
-(fset 'imenu 'helm-imenu)
-
 (provide 'init-helm)

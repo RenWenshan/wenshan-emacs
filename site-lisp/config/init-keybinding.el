@@ -10,6 +10,7 @@
 (global-set-key (kbd "C-x C-r") 'helm-recentf)
 (global-set-key (kbd "C-x b") 'helm-buffers-list)
 (global-set-key (kbd "M-x") 'helm-M-x)
+(global-set-key (kbd "C-c C-j") 'helm-imenu)
 
 (global-set-key (kbd "s-u") 'revert-buffer)
 
@@ -51,6 +52,10 @@
 (define-key awesome-pair-mode-map (kbd "C-M-n") 'awesome-pair-jump-right)
 (define-key awesome-pair-mode-map (kbd "C-M-p") 'awesome-pair-jump-left)
 (define-key awesome-pair-mode-map (kbd "C-M-:") 'awesome-pair-jump-out-pair-and-newline)
+
+(add-hook 'python-mode-hook
+          (lambda()
+            (define-key python-mode-map (kbd "C-c C-j") 'helm-imenu)))
 
 (global-set-key (kbd "M-j") 'pyim-convert-code-at-point)
 

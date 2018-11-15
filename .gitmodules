@@ -70,24 +70,6 @@
 [submodule "vi-navigate"]
 	path = site-lisp/extensions/vi-navigate
 	url = https://github.com/manateelazycat/vi-navigate.git
-[submodule "emacs-python-environment"]
-	path = site-lisp/extensions/emacs-python-environment
-	url = https://github.com/tkf/emacs-python-environment.git
-[submodule "emacs-deferred"]
-	path = site-lisp/extensions/emacs-deferred
-	url = https://github.com/kiwanami/emacs-deferred.git
-[submodule "emacs-epc"]
-	path = site-lisp/extensions/emacs-epc
-	url = https://github.com/kiwanami/emacs-epc.git
-[submodule "auto-complete"]
-	path = site-lisp/extensions/auto-complete
-	url = https://github.com/auto-complete/auto-complete.git
-[submodule "emacs-jedi"]
-	path = site-lisp/extensions/emacs-jedi
-	url = https://github.com/tkf/emacs-jedi.git
-[submodule "emacs-ctable"]
-	path = site-lisp/extensions/emacs-ctable
-	url = https://github.com/kiwanami/emacs-ctable.git
 [submodule "flycheck"]
 	path = site-lisp/extensions/flycheck
 	url = https://github.com/flycheck/flycheck.git
@@ -139,6 +121,21 @@
 [submodule "awesome-pair"]
 	path = site-lisp/extensions/awesome-pair
 	url = https://github.com/manateelazycat/awesome-pair.git
-[submodule "js2-mode"]
-	path = site-lisp/extensions/js2-mode
-	url = https://github.com/mooz/js2-mode.git
+[submodule "lsp-mode"]
+	path = site-lisp/extensions/lsp-mode
+	url = https://github.com/emacs-lsp/lsp-mode.git
+[submodule "company-lsp"]
+	path = site-lisp/extensions/company-lsp
+	url = https://github.com/tigersoldier/company-lsp.git
+[submodule "lsp-python"]
+	path = site-lisp/extensions/lsp-python
+	url = https://github.com/emacs-lsp/lsp-python.git
+[submodule "lsp-ui"]
+	path = site-lisp/extensions/lsp-ui
+	url = https://github.com/emacs-lsp/lsp-ui.git
+[submodule "lsp-javascript"]
+	path = site-lisp/extensions/lsp-javascript
+	url = https://github.com/emacs-lsp/lsp-javascript.git
+[submodule "typescript"]
+	path = site-lisp/extensions/typescript
+	url = https://github.com/ananthakumaran/typescript.el.git

@@ -1,4 +1,5 @@
 (require 'init-parenthesis-completion)
+(require 'init-lsp)
 
 (require 'pkg-info)			; required for flycheck
 (require 'flycheck)

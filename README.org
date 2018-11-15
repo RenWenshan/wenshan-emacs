@@ -58,13 +58,16 @@
 
 *** Modify Emacs Defaults
 
-    - disable tool bar, menu bar and scroll bar, I don't rely on them.
+    - disable tool bar, menu bar and scroll bar, I don't use them.
     - answer y/n instead of yes/no, less typing.
     - disable bell, it's annoying.
-    - type gpg password inside emacs, rather than in a pop-up window, it's difficult when Emacs is full-screen.
+    - type gpg password inside emacs, rather than in a pop-up window, it's troublesome when Emacs is full-screen.
     - set fill-column to 120, which suits my screen size better.
     - disable cursor blinking, it's too distracting.
     - remember recently opened files
+    - remember windows configuration: see winner-mode's manual for details
+    - use spaces for indentation instead of tabs: make it consistent
+    - turn on org-mode for txt files: most of my txt files are in org format
 
 *** Auto Save
 
@@ -174,9 +177,18 @@
 
     Used to use yafoding, but it seems hs-minor-mode is sufficient after configuration.
 
-*** jedi
+*** +jedi+
 
-    Trying out for python hacking.
+    +Trying out for python hacking.+ => replaced by lsp, which provides better python hacking experience.
+
+*** +js2-mode+
+
+    replaced by lsp
+
+*** lsp language server protocol
+
+    - emacs-lsp integrates well with flycheck, native completion-at-point, eldoc, imenu, and xref-find-definition/references.
+    - it also provides some refactoring features
 
 ** 中文
 
@@ -197,5 +209,7 @@
 * Plans
 
   - one-key from lazycat, I do forget keybindings from time to time.
+
+  - expand-region
 
   - +yafolding, need to compare the existing code folding extensions first+ -> built-in hs-minor-mode seems to be sufficient
