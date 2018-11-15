@@ -4,7 +4,7 @@
  :font (font-spec :name "-unknown-DejaVu Sans Mono-bold-normal-normal-*-*-*-*-*-m-0-iso10646-1"
                   :weight 'normal
                   :slant 'normal
-                  :size 12.5))
+                  :size 11.0))
 
 (dolist (charset '(kana han symbol cjk-misc bopomofo))
   (set-fontset-font
@@ -13,6 +13,6 @@
    (font-spec :name "-unknown-WenQuanYi Micro Hei Mono-normal-normal-normal-*-*-*-*-*-*-0-iso10646-1"
               :weight 'normal
               :slant 'normal
-              :size 15.0)))
+              :size 13.5)))
 
 (provide 'init-font-settings)
