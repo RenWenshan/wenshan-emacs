@@ -1,3 +1,5 @@
+(setq js-indent-level 2)
+
 ;; require javascript-typescript-langserver: sudo npm i -g javascript-typescript-langserver
 (require 'lsp-javascript-typescript)
 (add-hook 'js-mode-hook 'lsp-javascript-typescript-enable)
