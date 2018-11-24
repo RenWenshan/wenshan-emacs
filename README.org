@@ -190,6 +190,11 @@
     - emacs-lsp integrates well with flycheck, native completion-at-point, eldoc, imenu, and xref-find-definition/references.
     - it also provides some refactoring features
 
+** Anki
+   I use Anki to help remembering things: reading notes, ideas, etc.
+
+   anki-editor provides a way to add Anki card from Emacs.
+
 ** 中文
 
 *** pyim

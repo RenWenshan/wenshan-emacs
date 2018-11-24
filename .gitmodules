@@ -139,3 +139,9 @@
 [submodule "typescript"]
 	path = site-lisp/extensions/typescript
 	url = https://github.com/ananthakumaran/typescript.el.git
+[submodule "anki-editor"]
+	path = site-lisp/extensions/anki-editor
+	url = https://github.com/louietan/anki-editor.git
+[submodule "emacs-request"]
+	path = site-lisp/extensions/emacs-request
+	url = https://github.com/tkf/emacs-request.git

@@ -8,8 +8,9 @@
   (require 'init-media-player)
   (require 'init-project-interaction)
   (require 'init-hacking)
-  (require 'init-zh-cn)
   (require 'init-shell)
+  (require 'init-anki)
+  (require 'init-zh-cn)
   (require 'init-keybinding))
 
 (provide 'init)
