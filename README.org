@@ -211,6 +211,11 @@
 
     英文写作提示，蛮好用的。
 
+** Keybindings
+   All keybindings are set in =site-lisp/config/init-keybinding.el=. This is to have a central place for finding keybindings.
+
+   Besides that, hydra is used to provide "menus", by default you can press =s-c= to start the top menu.
+
 * Plans
 
   - one-key from lazycat, I do forget keybindings from time to time.

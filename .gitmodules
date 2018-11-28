@@ -145,3 +145,6 @@
 [submodule "emacs-request"]
 	path = site-lisp/extensions/emacs-request
 	url = https://github.com/tkf/emacs-request.git
+[submodule "hydra"]
+	path = site-lisp/extensions/hydra
+	url = https://github.com/abo-abo/hydra.git
