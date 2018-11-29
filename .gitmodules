@@ -148,3 +148,12 @@
 [submodule "hydra"]
 	path = site-lisp/extensions/hydra
 	url = https://github.com/abo-abo/hydra.git
+[submodule "dap-mode"]
+	path = site-lisp/extensions/dap-mode
+	url = https://github.com/yyoncho/dap-mode.git
+[submodule "f"]
+	path = site-lisp/extensions/f
+	url = https://github.com/rejeep/f.el.git
+[submodule "bui"]
+	path = site-lisp/extensions/bui
+	url = https://github.com/alezost/bui.el.git

@@ -188,7 +188,8 @@
 *** lsp language server protocol
 
     - emacs-lsp integrates well with flycheck, native completion-at-point, eldoc, imenu, and xref-find-definition/references.
-    - it also provides some refactoring features
+    - it also provides some refactoring features.
+    - can be used with dap-mode to provide better debugging experience.
 
 ** Anki
    I use Anki to help remembering things: reading notes, ideas, etc.
@@ -218,8 +219,12 @@
 
 * Plans
 
-  - one-key from lazycat, I do forget keybindings from time to time.
+  - +one-key from lazycat, I do forget keybindings from time to time.+ -> hydra seems to work fine
 
   - expand-region
 
   - +yafolding, need to compare the existing code folding extensions first+ -> built-in hs-minor-mode seems to be sufficient
+
+  - java support
+
+  - C/C++ support

@@ -9,4 +9,10 @@
 (require 'company-lsp)
 (push 'company-lsp company-backends)
 
+(require 'dap-mode)
+(require 'dap-ui)
+(require 'dap-ui-repl)
+(dap-mode 1)
+(dap-ui-mode 1)
+
 (provide 'init-lsp)

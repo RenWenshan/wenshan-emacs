@@ -4,4 +4,6 @@
 (require 'lsp-python)
 (add-hook 'python-mode-hook 'lsp-python-enable)
 
+(require 'dap-python)
+
 (provide 'init-python)
