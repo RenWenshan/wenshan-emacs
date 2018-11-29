@@ -37,24 +37,30 @@
 
 (global-set-key (kbd "C-c g") 'magit-status)
 
-(global-set-key (kbd "<XF86AudioPlay>") 'emms-pause)
-(global-set-key (kbd "<XF86AudioNext>") 'emms-next)
-(global-set-key (kbd "<XF86AudioPrev>") 'emms-previous)
-
 (global-set-key (kbd "s-p") 'helm-ls-git-ls)
 (global-set-key (kbd "s-F") 'color-rg-search-project)
 
+(defhydra hydra-media-player ()
+  "emms"
+  ("p" emms-pause               "pause/resume")
+  ("l" emms-play-playlist       "playlist")
+  ("f" emms-play-file           "song")
+  ("d" emms-play-directory-tree "directory")
+  (">" emms-next                "next")
+  ("<" emms-previous            "previous")
+  ("s" emms-stop                "stop")
+  ("q" nil                      "quit"))
+
 (defhydra hydra-projectile ()
   "
-     PROJECTILE: %(projectile-project-root)
+projectile: %(projectile-project-root)
 
      Find File            Search/Tags          Buffers                Cache
 ------------------------------------------------------------------------------------------
   _f_: file            _a_: ag                _i_: Ibuffer           _c_: cache clear
   _r_: recent file     _g_: update gtags      _b_: switch to buffer  _x_: remove known project
   _d_: dir             _m_: multi-occur       _k_: Kill all buffers  _X_: cleanup non-existing
-  _p_: switch project
-  _+_: add known project
+  _p_: switch project  ^^                     ^^                     _+_: add known project
 "
   ("a"   projectile-ag)
   ("b"   projectile-switch-to-buffer)
@@ -74,6 +80,7 @@
 
 (defhydra hydra-wenshan-emacs ()
   "Hydra"
+  ("m" hydra-media-player/body "media player" :exit t)
   ("p" hydra-projectile/body "project interaction" :exit t)
   ("q" nil "quit"))
 
