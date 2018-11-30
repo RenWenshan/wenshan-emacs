@@ -157,3 +157,15 @@
 [submodule "bui"]
 	path = site-lisp/extensions/bui
 	url = https://github.com/alezost/bui.el.git
+[submodule "lsp-java"]
+	path = site-lisp/extensions/lsp-java
+	url = https://github.com/emacs-lsp/lsp-java.git
+[submodule "ht"]
+	path = site-lisp/extensions/ht
+	url = https://github.com/Wilfred/ht.el.git
+[submodule "yasnippet"]
+	path = site-lisp/extensions/yasnippet
+	url = https://github.com/joaotavora/yasnippet.git
+[submodule "treemacs"]
+	path = site-lisp/extensions/treemacs
+	url = https://github.com/Alexander-Miller/treemacs.git
