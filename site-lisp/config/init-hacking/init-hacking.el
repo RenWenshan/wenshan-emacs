@@ -8,6 +8,6 @@
 
 (require 'init-python)
 (require 'init-javascript)
-(require 'init-java)
+;; (require 'init-java)
 
 (provide 'init-hacking)
