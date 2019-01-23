@@ -127,15 +127,9 @@
 [submodule "company-lsp"]
 	path = site-lisp/extensions/company-lsp
 	url = https://github.com/tigersoldier/company-lsp.git
-[submodule "lsp-python"]
-	path = site-lisp/extensions/lsp-python
-	url = https://github.com/emacs-lsp/lsp-python.git
 [submodule "lsp-ui"]
 	path = site-lisp/extensions/lsp-ui
 	url = https://github.com/emacs-lsp/lsp-ui.git
-[submodule "lsp-javascript"]
-	path = site-lisp/extensions/lsp-javascript
-	url = https://github.com/emacs-lsp/lsp-javascript.git
 [submodule "typescript"]
 	path = site-lisp/extensions/typescript
 	url = https://github.com/ananthakumaran/typescript.el.git
@@ -172,3 +166,6 @@
 [submodule "auto-save"]
 	path = site-lisp/extensions/auto-save
 	url = https://github.com/manateelazycat/auto-save.git
+[submodule "spinner"]
+	path = site-lisp/extensions/spinner
+	url = https://github.com/Malabarba/spinner.el.git

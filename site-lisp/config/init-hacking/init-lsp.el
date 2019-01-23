@@ -1,13 +1,10 @@
 (require 'lsp-mode)
 
 (require 'lsp-ui)
-(add-hook 'lsp-mode-hook 'lsp-ui-mode)
-
-(require 'lsp-imenu)
-(add-hook 'lsp-after-open-hook 'lsp-enable-imenu)
-
 (require 'company-lsp)
-(push 'company-lsp company-backends)
+
+(setq lsp-enable-xref t)
+(setq lsp-enable-completion-at-point t)
 
 (require 'dap-mode)
 (require 'dap-ui)
