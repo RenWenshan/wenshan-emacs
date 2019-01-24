@@ -169,3 +169,6 @@
 [submodule "spinner"]
 	path = site-lisp/extensions/spinner
 	url = https://github.com/Malabarba/spinner.el.git
+[submodule "mocha-snippets"]
+	path = site-lisp/extensions/mocha-snippets
+	url = https://github.com/cowboyd/mocha-snippets.el.git
