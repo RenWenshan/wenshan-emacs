@@ -6,7 +6,7 @@
 (setq lsp-enable-xref t)
 (setq lsp-enable-completion-at-point t)
 (setq lsp-prefer-flymake nil)
-(setq lsp-auto-configure nil)
+(setq lsp-auto-configure t)
 
 (require 'dap-mode)
 (require 'dap-ui)

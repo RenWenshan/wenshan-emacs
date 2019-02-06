@@ -130,9 +130,6 @@
 [submodule "lsp-ui"]
 	path = site-lisp/extensions/lsp-ui
 	url = https://github.com/emacs-lsp/lsp-ui.git
-[submodule "typescript"]
-	path = site-lisp/extensions/typescript
-	url = https://github.com/ananthakumaran/typescript.el.git
 [submodule "anki-editor"]
 	path = site-lisp/extensions/anki-editor
 	url = https://github.com/louietan/anki-editor.git
@@ -172,3 +169,6 @@
 [submodule "mocha-snippets"]
 	path = site-lisp/extensions/mocha-snippets
 	url = https://github.com/cowboyd/mocha-snippets.el.git
+[submodule "flow-minor-mode"]
+	path = site-lisp/extensions/flow-minor-mode
+	url = https://github.com/an-sh/flow-minor-mode.git

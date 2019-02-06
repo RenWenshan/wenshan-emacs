@@ -104,7 +104,8 @@ projectile: %(projectile-project-root)
 
 (add-hook 'js-mode-hook
           (lambda()
-            (define-key js-mode-map (kbd "M-.") 'xref-find-definitions)))
+            (define-key js-mode-map (kbd "M-.") 'xref-find-definitions)
+            (define-key js-mode-map (kbd "C-c C-j") 'helm-imenu)))
 
 (global-set-key (kbd "M-j") 'pyim-convert-code-at-point)
 
