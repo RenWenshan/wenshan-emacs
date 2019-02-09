@@ -2,6 +2,4 @@
 
 (add-hook 'python-mode-hook #'lsp)
 
-(require 'dap-python)
-
 (provide 'init-python)
