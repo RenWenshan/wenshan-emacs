@@ -9,6 +9,7 @@
                'sh-mode-hook
                'python-mode-hook
                'js-mode-hook
+               'c-mode-hook
                'minibuffer-inactive-mode-hook
                ))
   (add-hook hook '(lambda () (awesome-pair-mode t))))
