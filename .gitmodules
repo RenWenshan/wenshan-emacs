@@ -1,6 +1,3 @@
-[submodule "site-lisp/extensions/cache-path-from-shell"]
-	path = site-lisp/extensions/cache-path-from-shell
-	url = https://github.com/manateelazycat/cache-path-from-shell.git
 [submodule "site-lisp/extensions/exec-path-from-shell"]
 	path = site-lisp/extensions/exec-path-from-shell
 	url = https://github.com/purcell/exec-path-from-shell.git
