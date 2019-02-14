@@ -71,7 +71,13 @@
 
 *** Auto Save
 
-**** auto-save
+**** super-save
+
+     After using auto-save for a while, I decided to switch back to super-save.
+
+     I don't need to save files on idle, e.g. when working on a nodejs project with nodemon enabled, I don't want auto-save triggers re-run all the time.
+
+**** +auto-save+
 
      I use lazycat's auto-save extension, it saves the buffer if Emacs has been idle for 1 second (by default, customizable). I prefer it over super-save because:
 
