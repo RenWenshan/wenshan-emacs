@@ -52,9 +52,6 @@
 [submodule "window-numbering"]
 	path = site-lisp/extensions/window-numbering
 	url = https://github.com/nschum/window-numbering.el.git
-[submodule "awesome-tab"]
-	path = site-lisp/extensions/awesome-tab
-	url = https://github.com/manateelazycat/awesome-tab.git
 [submodule "ace-jump"]
 	path = site-lisp/extensions/ace-jump-mode
 	url = https://github.com/winterTTr/ace-jump-mode.git
