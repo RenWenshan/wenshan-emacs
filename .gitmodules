@@ -160,3 +160,12 @@
 [submodule "super-save"]
 	path = site-lisp/extensions/super-save
 	url = https://github.com/bbatsov/super-save.git
+[submodule "cider"]
+	path = site-lisp/extensions/cider
+	url = https://github.com/clojure-emacs/cider.git
+[submodule "clojure-mode"]
+	path = site-lisp/extensions/clojure-mode
+	url = https://github.com/clojure-emacs/clojure-mode.git
+[submodule "sesman"]
+	path = site-lisp/extensions/sesman
+	url = https://github.com/vspinu/sesman.git

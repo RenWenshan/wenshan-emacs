@@ -9,5 +9,6 @@
 (require 'init-python)
 (require 'init-javascript)
 (require 'init-c)
+(require 'init-clojure)
 
 (provide 'init-hacking)
