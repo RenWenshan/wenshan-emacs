@@ -28,7 +28,6 @@
         "quick_eng-zh_CN"
         ))
 
-(setq sdcv-dictionary-data-dir (concat (file-name-as-directory wenshan-emacs-data-dir)
-				       "/sdcv"))
+(setq sdcv-dictionary-data-dir (concat wenshan-emacs-data-dir "/sdcv"))
 
 (provide 'init-sdcv)
