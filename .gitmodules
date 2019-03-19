@@ -169,3 +169,6 @@
 [submodule "sesman"]
 	path = site-lisp/extensions/sesman
 	url = https://github.com/vspinu/sesman.git
+[submodule "pyim-basedict"]
+	path = site-lisp/extensions/pyim-basedict
+	url = https://github.com/tumashu/pyim-basedict.git
