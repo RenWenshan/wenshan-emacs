@@ -172,3 +172,6 @@
 [submodule "pyim-basedict"]
 	path = site-lisp/extensions/pyim-basedict
 	url = https://github.com/tumashu/pyim-basedict.git
+[submodule "isend-mode"]
+	path = site-lisp/extensions/isend-mode
+	url = https://github.com/ffevotte/isend-mode.el.git
