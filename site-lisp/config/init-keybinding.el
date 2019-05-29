@@ -85,6 +85,7 @@ projectile: %(projectile-project-root)
 (global-set-key (kbd "s-c") 'hydra-wenshan-emacs/body)
 
 (define-key awesome-pair-mode-map (kbd "M-o") 'awesome-pair-backward-delete)
+(define-key awesome-pair-mode-map (kbd "C-d") 'awesome-pair-forward-delete)
 (define-key awesome-pair-mode-map (kbd "C-k") 'awesome-pair-kill)
 (define-key awesome-pair-mode-map (kbd "M-\"") 'awesome-pair-wrap-double-quote)
 (define-key awesome-pair-mode-map (kbd "M-[") 'awesome-pair-wrap-bracket)
