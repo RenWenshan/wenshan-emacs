@@ -35,7 +35,8 @@
 (global-set-key (kbd "C-c g") 'magit-status)
 
 (global-set-key (kbd "s-p") 'helm-ls-git-ls)
-(global-set-key (kbd "s-F") 'color-rg-search-project)
+(global-set-key (kbd "s-M-f") 'color-rg-search-project)
+(global-set-key (kbd "s-F") 'helm-grep-do-git-grep)
 
 (defhydra hydra-media-player ()
   "emms"
