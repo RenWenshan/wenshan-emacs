@@ -175,3 +175,6 @@
 [submodule "isend-mode"]
 	path = site-lisp/extensions/isend-mode
 	url = https://github.com/ffevotte/isend-mode.el.git
+[submodule "helm-rg"]
+	path = site-lisp/extensions/helm-rg
+	url = https://github.com/microamp/helm-rg.git

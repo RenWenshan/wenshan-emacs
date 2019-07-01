@@ -36,7 +36,7 @@
 
 (global-set-key (kbd "s-p") 'helm-ls-git-ls)
 (global-set-key (kbd "s-M-f") 'color-rg-search-project)
-(global-set-key (kbd "s-F") 'helm-grep-do-git-grep)
+(global-set-key (kbd "s-F") 'helm-projectile-rg)
 
 (defhydra hydra-media-player ()
   "emms"
