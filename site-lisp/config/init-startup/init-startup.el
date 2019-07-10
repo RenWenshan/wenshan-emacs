@@ -5,7 +5,6 @@
 (require 'init-helm)
 (require 'init-auto-completion)
 (require 'init-undo-and-redo)
-(require 'init-font-settings)
 (require 'init-self-defined-functions)
 (require 'init-emacs-server)
 
