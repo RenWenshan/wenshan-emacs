@@ -172,3 +172,6 @@
 [submodule "highlight-indent-guides"]
 	path = site-lisp/extensions/highlight-indent-guides
 	url = https://github.com/DarthFennec/highlight-indent-guides.git
+[submodule "emacs-deferred"]
+	path = site-lisp/extensions/emacs-deferred
+	url = https://github.com/kiwanami/emacs-deferred.git
