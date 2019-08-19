@@ -3,6 +3,9 @@
 (global-set-key (kbd "s-k") '(lambda () (interactive) (kill-buffer (current-buffer))))
 (global-set-key (kbd "s-:") 'wenshan-switch-to-minibuffer-window)
 (global-set-key (kbd "C-^") 'wenshan-join-line-from-next-line)
+(global-set-key (kbd "M-p") 'wenshan-previous-blank-line)
+(global-set-key (kbd "M-n") 'wenshan-next-blank-line)
+(global-set-key (kbd "M-g") 'goto-line)
 
 (global-set-key (kbd "s->") 'ace-jump-mode)
 (global-set-key (kbd "s-<") 'ace-jump-mode-pop-mark)
@@ -31,8 +34,8 @@
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 (global-set-key (kbd "C-c C->") 'mc/skip-to-next-like-this)
 
-(global-set-key (kbd "M-p") 'drag-stuff-up)
-(global-set-key (kbd "M-n") 'drag-stuff-down)
+(global-set-key (kbd "C-<up>") 'drag-stuff-up)
+(global-set-key (kbd "C-<down>") 'drag-stuff-down)
 
 (global-set-key (kbd "C-c g") 'magit-status)
 
@@ -109,5 +112,6 @@ projectile: %(projectile-project-root)
             (define-key js-mode-map (kbd "C-c C-j") 'helm-imenu)))
 
 (global-set-key (kbd "M-j") 'pyim-convert-code-at-point)
+(global-set-key (kbd "C-x C-y") 'sdcv-search-pointer+)
 
 (provide 'init-keybinding)
