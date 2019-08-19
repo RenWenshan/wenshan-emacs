@@ -169,3 +169,6 @@
 [submodule "helm-rg"]
 	path = site-lisp/extensions/helm-rg
 	url = https://github.com/microamp/helm-rg.git
+[submodule "highlight-indent-guides"]
+	path = site-lisp/extensions/highlight-indent-guides
+	url = https://github.com/DarthFennec/highlight-indent-guides.git

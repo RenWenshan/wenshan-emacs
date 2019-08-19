@@ -6,6 +6,7 @@
 (require 'flycheck)
 (require 'init-code-folding)
 (require 'init-code-sending)
+(require 'init-indentation-highlight)
 
 (require 'init-python)
 (require 'init-javascript)
