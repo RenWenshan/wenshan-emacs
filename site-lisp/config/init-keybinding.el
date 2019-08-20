@@ -5,8 +5,13 @@
             (progn
               (define-key dired-mode-map "e" (lambda () (interactive) (eww-open-file (dired-get-file-for-visit)))))))
 
+(global-set-key (kbd "s-+") 'text-scale-increase)
+(global-set-key (kbd "s--") 'text-scale-decrease)
+(global-set-key (kbd "s-=") 'text-scale-set)
+
 (global-set-key (kbd "s-k") '(lambda () (interactive) (kill-buffer (current-buffer))))
 (global-set-key (kbd "s-:") 'wenshan-switch-to-minibuffer-window)
+
 (global-set-key (kbd "C-^") 'wenshan-join-line-from-next-line)
 (global-set-key (kbd "M-p") 'wenshan-previous-blank-line)
 (global-set-key (kbd "M-n") 'wenshan-next-blank-line)
