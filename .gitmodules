@@ -181,3 +181,6 @@
 [submodule "nov"]
 	path = site-lisp/extensions/nov
 	url = https://github.com/wasamasa/nov.el.git
+[submodule "emacs-htmlize"]
+	path = site-lisp/extensions/emacs-htmlize
+	url = https://github.com/hniksic/emacs-htmlize.git
