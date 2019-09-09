@@ -175,3 +175,9 @@
 [submodule "emacs-deferred"]
 	path = site-lisp/extensions/emacs-deferred
 	url = https://github.com/kiwanami/emacs-deferred.git
+[submodule "esxml"]
+	path = site-lisp/extensions/esxml
+	url = https://github.com/tali713/esxml.git
+[submodule "nov"]
+	path = site-lisp/extensions/nov
+	url = https://github.com/wasamasa/nov.el.git

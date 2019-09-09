@@ -9,7 +9,7 @@
   (require 'init-project-interaction)
   (require 'init-hacking)
   (require 'init-shell)
-  (require 'init-anki)
+  (require 'init-misc)
   (require 'init-zh-cn)
   (require 'init-keybinding))
 
