@@ -96,6 +96,8 @@ projectile: %(projectile-project-root)
   ("m" hydra-media-player/body "media player" :exit t)
   ("p" hydra-projectile/body "project interaction" :exit t)
   ("s" aweshell-new "eshell" :exit t)
+  ("c" compile "compile" :exit t)
+  ("r" recompile "re-compile" :exit t)
   ("q" nil "quit"))
 
 (global-set-key (kbd "s-c") 'hydra-wenshan-emacs/body)
