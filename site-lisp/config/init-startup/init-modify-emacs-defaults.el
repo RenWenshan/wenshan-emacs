@@ -15,5 +15,6 @@
 (setq-default indent-tabs-mode nil)     ; no tabs for indentation
 (add-to-list 'auto-mode-alist '("\\.txt\\'" . org-mode)) ; use org-mode for txt files
 (setq org-html-validation-link nil)
+(delete-selection-mode 1)
 
 (provide 'init-modify-emacs-defaults)
