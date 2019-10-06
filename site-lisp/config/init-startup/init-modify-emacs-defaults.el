@@ -1,6 +1,6 @@
 (set-language-environment "UTF-8")      ; set coding system
 (tool-bar-mode -1)			; hide tool bar for more space
-(menu-bar-mode -1)			; hide menu bar for more space
+(menu-bar-mode 1)			; hide menu bar for more space
 (scroll-bar-mode -1)			; hide scroll bar for more space
 (show-paren-mode 1)                     ; highlight matching parenthesis
 (setq scroll-step 3)                    ; smooth scroll
@@ -16,6 +16,6 @@
 (setq-default indent-tabs-mode nil)     ; no tabs for indentation
 (add-to-list 'auto-mode-alist '("\\.txt\\'" . org-mode)) ; use org-mode for txt files
 (setq org-html-validation-link nil)
-(delete-selection-mode 1)
+(delete-selection-mode 1)               ; overwrite text by yank
 
 (provide 'init-modify-emacs-defaults)

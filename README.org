@@ -58,7 +58,7 @@
 
 *** Modify Emacs Defaults
 
-    - disable tool bar, menu bar and scroll bar, I don't use them.
+    - disable tool bar, +menu bar+ and scroll bar, I don't use them.
     - answer y/n instead of yes/no, less typing.
     - disable bell, it's annoying.
     - type gpg password inside emacs, rather than in a pop-up window, it's troublesome when Emacs is full-screen.
