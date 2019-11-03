@@ -17,5 +17,6 @@
 (add-to-list 'auto-mode-alist '("\\.txt\\'" . org-mode)) ; use org-mode for txt files
 (setq org-html-validation-link nil)
 (delete-selection-mode 1)               ; overwrite text by yank
+(column-number-mode 1)                  ; show column number in mode line
 
 (provide 'init-modify-emacs-defaults)
