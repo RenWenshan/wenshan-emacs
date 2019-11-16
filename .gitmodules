@@ -184,3 +184,6 @@
 [submodule "emacs-htmlize"]
 	path = site-lisp/extensions/emacs-htmlize
 	url = https://github.com/hniksic/emacs-htmlize.git
+[submodule "xr"]
+	path = site-lisp/extensions/xr
+	url = https://github.com/mattiase/xr.git
