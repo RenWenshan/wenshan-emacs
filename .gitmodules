@@ -151,9 +151,6 @@
 [submodule "mocha-snippets"]
 	path = site-lisp/extensions/mocha-snippets
 	url = https://github.com/cowboyd/mocha-snippets.el.git
-[submodule "flow-minor-mode"]
-	path = site-lisp/extensions/flow-minor-mode
-	url = https://github.com/an-sh/flow-minor-mode.git
 [submodule "super-save"]
 	path = site-lisp/extensions/super-save
 	url = https://github.com/bbatsov/super-save.git
@@ -187,3 +184,6 @@
 [submodule "xr"]
 	path = site-lisp/extensions/xr
 	url = https://github.com/mattiase/xr.git
+[submodule "use-package"]
+	path = site-lisp/extensions/use-package
+	url = https://github.com/jwiegley/use-package.git

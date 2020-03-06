@@ -1,12 +1,15 @@
 ;;; flashcards: add items to anki
-(require 'anki-editor)
+(use-package anki-editor
+  :commands (anki-editor-mode))
 
 ;;; nov.el for epub ebooks reading
-(require 'nov)
+(use-package nov
+  :commands (nov-mode))
 (add-to-list 'auto-mode-alist '("\\.epub\\'" . nov-mode))
 
 ;;; org-mode html exporting to one file
-(require 'htmlize)
+(use-package htmlize
+  :commands (htmlize))
 
 (defcustom org-html-image-base64-max-size #x4000000
   "Export embedded base64 encoded images up to this size."

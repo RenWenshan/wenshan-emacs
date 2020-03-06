@@ -1,5 +1,5 @@
-(require 'init-pyim)
-(require 'init-sdcv)
-(require 'init-english-helper)
+(use-package init-pyim)
+(use-package init-sdcv)
+(use-package init-english-helper)
 
 (provide 'init-zh-cn)

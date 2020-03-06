@@ -1,16 +1,18 @@
-(require 'init-parenthesis-completion)
-(require 'init-template-system)
-(require 'init-lsp)
+(use-package init-parenthesis-completion)
+(use-package init-template-system)
+(use-package init-lsp)
 
-(require 'pkg-info)			; required for flycheck
-(require 'flycheck)
-(require 'init-code-folding)
-(require 'init-code-sending)
-(require 'init-indentation-highlight)
-(require 'init-line-numbering)
+(use-package flycheck
+  :commands (flycheck-mode)
+  :config
+  (require 'pkg-info))
+(use-package init-code-folding)
+(use-package init-code-sending)
+(use-package init-indentation-highlight)
+(use-package init-line-numbering)
 
-(require 'init-python)
-(require 'init-javascript)
-(require 'init-c)
+(use-package init-python)
+(use-package init-javascript)
+(use-package init-c)
 
 (provide 'init-hacking)

@@ -1,6 +1,3 @@
-(add-hook 'c-mode-hook #'lsp)
-(add-hook 'c++-mode-hook #'lsp)
-
 ;; fix indentation https://stackoverflow.com/posts/26051450/revisions
 (defun fix-c-indent-offset-according-to-syntax-context (key val)
   (setq c-offsets-alist (delq (assoc key c-offsets-alist) c-offsets-alist))

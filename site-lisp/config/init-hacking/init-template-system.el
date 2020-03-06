@@ -1,4 +1,4 @@
-(require 'yasnippet)
-(yas-global-mode t)
+(use-package yasnippet
+  :commands (yas-minor-mode))
 
 (provide 'init-template-system)

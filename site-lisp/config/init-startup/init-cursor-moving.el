@@ -15,16 +15,30 @@
   '(ace-jump-mode-enable-mark-sync))
 
 ;; vi style navigation for read-only modes
-(require 'vi-navigate)
-(setq vi-navigate-key-alist (cons '("/" . ace-jump-mode) vi-navigate-key-alist))
-(vi-navigate-load-keys)
+(use-package vi-navigate
+  :config
+  (setq vi-navigate-key-alist (cons '("/" . ace-jump-mode) vi-navigate-key-alist))
+  (vi-navigate-load-keys)
+  )
 
-(require 'multiple-cursors)
+(use-package multiple-cursors
+  :bind (("C-S-c C-S-c" . mc/edit-lines)
+         ("C->"         . mc/mark-next-like-this)
+         ("C-<"         . mc/mark-previous-like-this)
+         ("C-c C-<"     . mc/mark-all-like-this)
+         ("C-c C->"     . mc/skip-to-next-like-this)
+         )
+  )
 
-(require 'drag-stuff)
-(drag-stuff-global-mode t)
+(use-package drag-stuff
+  :bind (("C-<up>"   . drag-stuff-up)
+         ("C-<down>" . drag-stuff-down)
+         )
+  )
 
-(require 'disable-mouse)
-(disable-mouse-global-mode t)
+(use-package disable-mouse
+  :config
+  (disable-mouse-global-mode t)
+  )
 
 (provide 'init-cursor-moving)

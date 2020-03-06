@@ -18,7 +18,7 @@
       (require 'init)
     #+END_SRC
 
-  - start emacs, some external programs such as python-pylint are required for certain features, but you can install them when needed.
+  - start emacs, some external programs such as python-pylint might be required for certain features, but you can install them when needed.
 
 * Add New Extensions
 
@@ -46,7 +46,9 @@
 
   - static data (dictionaries, etc) are in =wenshan-emacs/site-lisp/data/=.
 
-  - keybindings are placed in =wenshan-emacs/site-lisp/config/init-keybinding.el=: easier for maintenance and lookup.
+  - =use-package= is used to reduce init time, =M-x describe-personal-keybindings= lists keybindings defined with =use-package=.
+
+  - other keybindings are defined in =wenshan-emacs/site-lisp/config/init-keybinding.el=: easier for maintenance and lookup.
 
 * Major Features and Reasoning
 

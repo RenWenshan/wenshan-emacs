@@ -1,6 +1,8 @@
-(require 'highlight-indent-guides)
-(setq highlight-indent-guides-method 'character)
-
-(add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
+(use-package highlight-indent-guides
+  :commands (highlight-indent-guides-mode)
+  :hook ((prog-mode . highlight-indent-guides-mode))
+  :config
+  (setq highlight-indent-guides-method 'character)
+  )
 
 (provide 'init-indentation-highlight)
