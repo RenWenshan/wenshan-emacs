@@ -1,9 +1,6 @@
-(add-to-list 'load-path (concat wenshan-emacs-extension-dir "/emms/lisp"))
-
 (use-package emms
-  :demand t
   :commands (hydra-media-player/body)
-  :init
+  :config
   (defhydra hydra-media-player ()
     "emms"
     ("p" emms-pause               "pause/resume")
@@ -15,10 +12,8 @@
     ("s" emms-stop                "stop")
     ("q" nil                      "quit"))
 
-  :config
   (require 'emms-setup)
-  (emms-all)
-  (emms-default-players)
-  )
+  (emms-standard)
+  (emms-default-players))
 
 (provide 'init-media-player)

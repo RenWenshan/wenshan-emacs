@@ -1,7 +1,6 @@
 (use-package projectile
-  :demand t
   :commands (hydra-projectile/body)
-  :init
+  :config
   (defhydra hydra-projectile ()
     "
 projectile: %(projectile-project-root)
@@ -28,8 +27,6 @@ projectile: %(projectile-project-root)
     ("X"   projectile-cleanup-known-projects)
     ("+"   projectile-add-known-project)
     ("q"   nil "quit"))
-
-  :config
   (projectile-mode t)
   )
 
