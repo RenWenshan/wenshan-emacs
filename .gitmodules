@@ -31,9 +31,6 @@
 [submodule "pyim"]
 	path = site-lisp/extensions/pyim
 	url = https://github.com/tumashu/pyim.git
-[submodule "popup"]
-	path = site-lisp/extensions/popup
-	url = https://github.com/auto-complete/popup-el.git
 [submodule "async"]
 	path = site-lisp/extensions/async
 	url = https://github.com/jwiegley/emacs-async.git
@@ -55,12 +52,6 @@
 [submodule "ace-jump"]
 	path = site-lisp/extensions/ace-jump-mode
 	url = https://github.com/winterTTr/ace-jump-mode.git
-[submodule "helm"]
-	path = site-lisp/extensions/helm
-	url = https://github.com/emacs-helm/helm.git
-[submodule "helm-ls-git"]
-	path = site-lisp/extensions/helm-ls-git
-	url = https://github.com/emacs-helm/helm-ls-git.git
 [submodule "vi-navigate"]
 	path = site-lisp/extensions/vi-navigate
 	url = https://github.com/manateelazycat/vi-navigate.git
@@ -154,18 +145,12 @@
 [submodule "super-save"]
 	path = site-lisp/extensions/super-save
 	url = https://github.com/bbatsov/super-save.git
-[submodule "clojure-mode"]
-	path = site-lisp/extensions/clojure-mode
-	url = https://github.com/clojure-emacs/clojure-mode.git
 [submodule "pyim-basedict"]
 	path = site-lisp/extensions/pyim-basedict
 	url = https://github.com/tumashu/pyim-basedict.git
 [submodule "isend-mode"]
 	path = site-lisp/extensions/isend-mode
 	url = https://github.com/ffevotte/isend-mode.el.git
-[submodule "helm-rg"]
-	path = site-lisp/extensions/helm-rg
-	url = https://github.com/microamp/helm-rg.git
 [submodule "highlight-indent-guides"]
 	path = site-lisp/extensions/highlight-indent-guides
 	url = https://github.com/DarthFennec/highlight-indent-guides.git
@@ -187,3 +172,6 @@
 [submodule "use-package"]
 	path = site-lisp/extensions/use-package
 	url = https://github.com/jwiegley/use-package.git
+[submodule "swiper"]
+	path = site-lisp/extensions/swiper
+	url = https://github.com/abo-abo/swiper

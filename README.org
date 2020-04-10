@@ -121,11 +121,9 @@
 
      Label each window with a number and press M-<num> to jump to it, best way of windows switching in my opinion.
 
-**** +awesome-tab+: don't use it often after trying for a while.
+**** +awesome-tab+: don't find using it often after trying for a while.
 
-     An improved version of tabbar, I use it in combination with helm buffer switching. It reduces the burden of remembering opened buffer names.
-
-*** Helm
+*** Ivy/Swiper/Counsel
 
 *** Undo And Redo
 

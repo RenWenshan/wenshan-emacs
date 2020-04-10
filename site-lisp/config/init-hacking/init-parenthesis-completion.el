@@ -52,8 +52,6 @@
                  'lua-mode-hook
                  'swift-mode-hook
                  'minibuffer-inactive-mode-hook
-                 'clojure-mode-hook
-                 'clojurescript-mode-hook
                  ))
     (add-hook hook '(lambda () (awesome-pair-mode t))))
 

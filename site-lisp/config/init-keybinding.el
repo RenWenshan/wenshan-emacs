@@ -33,14 +33,9 @@
 
 (global-set-key (kbd "s-c") 'hydra-wenshan-emacs/body)
 
-(add-hook 'python-mode-hook
-          (lambda()
-            (define-key python-mode-map (kbd "C-c C-j") 'helm-imenu)))
-
 (add-hook 'js-mode-hook
           (lambda()
             (define-key js-mode-map (kbd "M-.") 'xref-find-definitions)
-            (define-key js-mode-map (kbd "C-c C-j") 'helm-imenu)))
-
+            ))
 
 (provide 'init-keybinding)

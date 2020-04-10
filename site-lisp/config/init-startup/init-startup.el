@@ -2,7 +2,7 @@
 (use-package init-auto-save)
 (use-package init-cursor-moving)
 (use-package init-buffer-and-window-switching)
-(use-package init-helm)
+(use-package init-ivy)
 (use-package init-auto-completion)
 (use-package init-undo-and-redo)
 (use-package init-self-defined-functions
