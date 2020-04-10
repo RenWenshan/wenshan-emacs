@@ -12,6 +12,8 @@
 (global-set-key (kbd "s-<") 'ace-jump-mode-pop-mark)
 (global-set-key (kbd "s-u") 'revert-buffer)
 (global-set-key (kbd "s-t") 'view-mode)
+(global-set-key (kbd "C-c C-d") "\C-a\C- \C-n\M-w\C-y")
+
 (add-hook 'view-mode-hook
 	  (lambda ()
 	    (progn
@@ -26,8 +28,7 @@
   ("m" hydra-media-player/body "media player" :exit t)
   ("p" hydra-projectile/body "project interaction" :exit t)
   ("s" aweshell-new "eshell" :exit t)
-  ("c" compile "compile" :exit t)
-  ("r" recompile "re-compile" :exit t)
+  ("t" toggle-truncate-lines "truncate lines" :exit t)
   ("q" nil "quit"))
 
 (global-set-key (kbd "s-c") 'hydra-wenshan-emacs/body)

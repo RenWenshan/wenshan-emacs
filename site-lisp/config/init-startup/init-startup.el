@@ -10,6 +10,7 @@
          ("M-p" . wenshan-previous-blank-line)
          ("M-n" . wenshan-next-blank-line)
          ("s-:" . wenshan-switch-to-minibuffer-window)
+         ("s-g" . wenshan-delete-current-file)
          )
   )
 (use-package init-emacs-server)

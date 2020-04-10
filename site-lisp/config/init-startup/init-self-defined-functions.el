@@ -21,4 +21,10 @@
   (search-forward-regexp "^[ \t]*\n")
   (forward-line -1))
 
+(defun wenshan-delete-current-file ()
+  (interactive)
+  (let ((filename (buffer-file-name)))
+    (delete-file filename)
+    (kill-current-buffer)))
+
 (provide 'init-self-defined-functions)
