@@ -175,3 +175,6 @@
 [submodule "swiper"]
 	path = site-lisp/extensions/swiper
 	url = https://github.com/abo-abo/swiper
+[submodule "pinyinlib"]
+	path = site-lisp/extensions/pinyinlib
+	url = https://github.com/cute-jumper/pinyinlib.el.git

@@ -32,6 +32,24 @@
   (require 'counsel)
   (setq ivy-use-virtual-buffers t)
   (setq ivy-count-format "(%d/%d) ")
+
+  ;; 以拼音首字母进行搜索，借鉴自陈斌的配置，见 https://zhuanlan.zhihu.com/p/67307599
+  (require 'pinyinlib)
+  (defun re-builder-extended-pattern (str)
+    "Build regex compatible with pinyin from STR."
+    (let* ((len (length str)))
+      (cond
+       ;; do nothing
+       ((<= (length str) 0))
+
+       ;; If the first charater of input in ivy is ":",
+       ;; remaining input is converted into Chinese pinyin regex.
+       ((string= (substring str 0 1) ":")
+        (setq str (pinyinlib-build-regexp-string (substring str 1 len) t)))
+       )
+      (ivy--regex-ignore-order str)))
+
+  (setq ivy-re-builders-alist '((t . re-builder-extended-pattern)))
   )
 
 (provide 'init-ivy)
