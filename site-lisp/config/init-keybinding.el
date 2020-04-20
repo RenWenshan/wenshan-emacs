@@ -6,6 +6,8 @@
 (global-set-key (kbd "s-+") 'text-scale-increase)
 (global-set-key (kbd "s--") 'text-scale-decrease)
 (global-set-key (kbd "s-=") 'text-scale-set)
+(global-set-key (kbd "M-n") 'forward-paragraph)
+(global-set-key (kbd "M-p") 'backward-paragraph)
 (global-set-key (kbd "s-k") '(lambda () (interactive) (kill-buffer (current-buffer))))
 (global-set-key (kbd "M-g") 'goto-line)
 (global-set-key (kbd "s->") 'ace-jump-mode)

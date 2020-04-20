@@ -9,18 +9,6 @@
   (when (active-minibuffer-window)
     (select-window (active-minibuffer-window))))
 
-(defun wenshan-previous-blank-line ()
-  "Moves to the previous line containing nothing but whitespace."
-  (interactive)
-  (search-backward-regexp "^[ \t]*\n"))
-
-(defun wenshan-next-blank-line ()
-  "Moves to the next line containing nothing but whitespace."
-  (interactive)
-  (forward-line)
-  (search-forward-regexp "^[ \t]*\n")
-  (forward-line -1))
-
 (defun wenshan-delete-current-file ()
   (interactive)
   (let ((filename (buffer-file-name)))
