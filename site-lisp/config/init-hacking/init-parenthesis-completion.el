@@ -11,7 +11,6 @@
         ("=" . awesome-pair-equal)
         ("%" . awesome-pair-match-paren)
         ("\""    . awesome-pair-double-quote)
-        ("M-o"   . awesome-pair-backward-delete)
         ("C-d"   . awesome-pair-forward-delete)
         ("C-k"   . awesome-pair-kill)
         ("M-\""  . awesome-pair-wrap-double-quote)
