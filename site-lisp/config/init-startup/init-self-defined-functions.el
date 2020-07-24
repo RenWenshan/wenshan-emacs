@@ -15,4 +15,15 @@
     (delete-file filename)
     (kill-current-buffer)))
 
+(defun wenshan-toggle-fold-based-on-indentation ()
+  "Toggle fold all lines larger than indentation on current line
+Copied from https://stackoverflow.com/a/4459159/1074321"
+  (interactive)
+  (let ((col 1))
+    (save-excursion
+      (back-to-indentation)
+      (setq col (+ 1 (current-column)))
+      (set-selective-display
+       (if selective-display nil (or col 1))))))
+
 (provide 'init-self-defined-functions)

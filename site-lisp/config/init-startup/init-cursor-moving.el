@@ -36,6 +36,10 @@
          )
   )
 
+(use-package smart-shift
+  :bind (("C-S-<left>" . smart-shift-left)
+         ("C-S-<right>" . smart-shift-right)))
+
 (use-package disable-mouse
   :config
   (disable-mouse-global-mode t)

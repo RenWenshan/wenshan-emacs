@@ -9,10 +9,10 @@
       (defvar wenshan-emacs-root-dir (file-truename "<path-to-wenshan-emacs>/site-lisp"))
 
       (defun add-subdirs-to-load-path (dir)
-	"Recursive add directories to `load-path'."
-	(let ((default-directory (file-name-as-directory dir)))
-	  (add-to-list 'load-path dir)
-	  (normal-top-level-add-subdirs-to-load-path)))
+        "Recursive add directories to `load-path'."
+        (let ((default-directory (file-name-as-directory dir)))
+          (add-to-list 'load-path dir)
+          (normal-top-level-add-subdirs-to-load-path)))
       (add-subdirs-to-load-path wenshan-emacs-root-dir)
 
       (require 'init)
@@ -114,6 +114,11 @@
 **** disable-mouse
 
      It's distracting to use a laptop when you touch the touch-pad without intention and it changes where your cursor is all the time.
+
+**** smart-shift
+
+     Move selected region left/right based on indentation, especially useful for major modes such as =python-mode= and =yaml-mode=
+
 
 *** Buffers And Windows Switching
 

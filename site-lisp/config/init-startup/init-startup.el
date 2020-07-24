@@ -9,6 +9,7 @@
   :bind (("C-^" . wenshan-join-line-from-next-line)
          ("s-:" . wenshan-switch-to-minibuffer-window)
          ("s-g" . wenshan-delete-current-file)
+         ("<backtab>" . wenshan-toggle-fold-based-on-indentation)
          )
   )
 (use-package init-emacs-server)

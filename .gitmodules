@@ -178,3 +178,6 @@
 [submodule "pinyinlib"]
 	path = site-lisp/extensions/pinyinlib
 	url = https://github.com/cute-jumper/pinyinlib.el.git
+[submodule "smart-shift"]
+	path = site-lisp/extensions/smart-shift
+	url = https://github.com/hbin/smart-shift.git
