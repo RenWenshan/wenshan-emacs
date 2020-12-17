@@ -33,6 +33,8 @@
 (use-package drag-stuff
   :bind (("C-<up>"   . drag-stuff-up)
          ("C-<down>" . drag-stuff-down)
+         ("C-<left>" . drag-stuff-left)
+         ("C-<right>" . drag-stuff-left)
          )
   )
 

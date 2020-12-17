@@ -1,6 +1,5 @@
 (use-package ivy
   :bind (
-         ("C-s" . 'swiper-isearch)
          ("M-x" . 'counsel-M-x)
          ("C-x C-f" . 'counsel-find-file)
          ("M-y" . 'counsel-yank-pop)

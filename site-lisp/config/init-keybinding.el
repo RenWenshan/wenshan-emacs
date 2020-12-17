@@ -31,6 +31,7 @@
   ("p" hydra-projectile/body "project interaction" :exit t)
   ("s" aweshell-new "eshell" :exit t)
   ("t" toggle-truncate-lines "truncate lines" :exit t)
+  ("i" org-toggle-inline-images "org inline imgs" :exit t)
   ("q" nil "quit"))
 
 (global-set-key (kbd "s-c") 'hydra-wenshan-emacs/body)

@@ -15,6 +15,7 @@
 (use-package init-hacking)
 (use-package init-keybinding)
 (use-package init-zh-cn)
+(use-package init-misc)
 
 (setq gc-cons-threshold 4000000)        ; set gc threshold back to a normal number
 
