@@ -9,12 +9,6 @@
   (when (active-minibuffer-window)
     (select-window (active-minibuffer-window))))
 
-(defun wenshan-delete-current-file ()
-  (interactive)
-  (let ((filename (buffer-file-name)))
-    (delete-file filename)
-    (kill-current-buffer)))
-
 (defun wenshan-toggle-fold-based-on-indentation ()
   "Toggle fold all lines larger than indentation on current line
 Copied from https://stackoverflow.com/a/4459159/1074321"
