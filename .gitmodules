@@ -78,7 +78,7 @@
 	url = https://github.com/jrblevin/markdown-mode.git
 [submodule "undo-tree"]
 	path = site-lisp/extensions/undo-tree
-	url = http://www.dr-qubit.org/git/undo-tree.git
+	url = https://gitlab.com/tsc25/undo-tree.git
 [submodule "drag-stuff"]
 	path = site-lisp/extensions/drag-stuff
 	url = https://github.com/rejeep/drag-stuff.el.git
@@ -163,3 +163,6 @@
 [submodule "smart-shift"]
 	path = site-lisp/extensions/smart-shift
 	url = https://github.com/hbin/smart-shift.git
+[submodule "queue"]
+	path = site-lisp/extensions/queue
+	url = https://github.com/emacs-straight/queue.git
