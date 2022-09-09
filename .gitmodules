@@ -55,12 +55,6 @@
 [submodule "vi-navigate"]
 	path = site-lisp/extensions/vi-navigate
 	url = https://github.com/manateelazycat/vi-navigate.git
-[submodule "flycheck"]
-	path = site-lisp/extensions/flycheck
-	url = https://github.com/flycheck/flycheck.git
-[submodule "pkg-info"]
-	path = site-lisp/extensions/pkg-info
-	url = https://github.com/lunaryorn/pkg-info.el.git
 [submodule "epl"]
 	path = site-lisp/extensions/epl
 	url = https://github.com/cask/epl.git
@@ -103,15 +97,6 @@
 [submodule "awesome-pair"]
 	path = site-lisp/extensions/awesome-pair
 	url = https://github.com/manateelazycat/awesome-pair.git
-[submodule "lsp-mode"]
-	path = site-lisp/extensions/lsp-mode
-	url = https://github.com/emacs-lsp/lsp-mode.git
-[submodule "company-lsp"]
-	path = site-lisp/extensions/company-lsp
-	url = https://github.com/tigersoldier/company-lsp.git
-[submodule "lsp-ui"]
-	path = site-lisp/extensions/lsp-ui
-	url = https://github.com/emacs-lsp/lsp-ui.git
 [submodule "anki-editor"]
 	path = site-lisp/extensions/anki-editor
 	url = https://github.com/louietan/anki-editor.git
@@ -139,9 +124,6 @@
 [submodule "spinner"]
 	path = site-lisp/extensions/spinner
 	url = https://github.com/Malabarba/spinner.el.git
-[submodule "mocha-snippets"]
-	path = site-lisp/extensions/mocha-snippets
-	url = https://github.com/cowboyd/mocha-snippets.el.git
 [submodule "super-save"]
 	path = site-lisp/extensions/super-save
 	url = https://github.com/bbatsov/super-save.git

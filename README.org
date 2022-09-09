@@ -182,7 +182,7 @@
 
     I prefer paredit over smartparens for its simplicity. Then Lazycat published awesome-pair based on the idea of paredit and I switched to it.
 
-*** flycheck
+*** +flycheck+
 
 *** code folding
 
@@ -196,7 +196,7 @@
 
     replaced by lsp
 
-*** lsp language server protocol
+*** +lsp language server protocol+
 
     - emacs-lsp integrates well with flycheck, native completion-at-point, eldoc, imenu, and xref-find-definition/references.
     - it also provides some refactoring features.
@@ -209,13 +209,13 @@
 
 ** 中文
 
-*** pyim
+*** pyim and emacs-rime
 
     在 GNU/Linux 下，经常碰到 Emacs 无法调用系统输入法的问题。我之前自己改写了 eim，以便使用双拼，后来发现了源于 eim 的 pyim，简单易用且支持双拼，于是换用 pyim。
 
     这也是自由软件的妙处之一：源码可以活得更久远。
 
-    后来又在一些机器上改用 rime 作为输入法后端，配置见 http://wenshanren.org/?p=1070
+    后来又在一些机器上改用 emacs-rime 自然码双拼，但配置过程较为复杂，不在此详述
 
 *** sdcv
 
