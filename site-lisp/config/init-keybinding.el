@@ -14,7 +14,7 @@
 (global-set-key (kbd "s-<") 'ace-jump-mode-pop-mark)
 (global-set-key (kbd "s-u") 'revert-buffer)
 (global-set-key (kbd "s-t") 'view-mode)
-(global-set-key (kbd "C-c C-d") "\C-a\C- \C-n\M-w\C-y")
+(global-set-key (kbd "C-c C-d") "\C-a\C- \C-n\M-w\C-y") ; duplicate current line
 
 (add-hook 'view-mode-hook
 	  (lambda ()

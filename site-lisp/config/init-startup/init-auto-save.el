@@ -1,5 +1,7 @@
 (setq auto-save-default nil)                             ; disable emacs built-in auto-save
-(setq make-backup-files nil)                             ; disable backups
+(setq make-backup-files t)                               ; enable backups, just in case
+(setq backup-directory-alist '(("." . "~/.emacs.d/backup")))
+
 (add-hook 'before-save-hook 'delete-trailing-whitespace) ; delete trailing space before saving
 
 (use-package super-save

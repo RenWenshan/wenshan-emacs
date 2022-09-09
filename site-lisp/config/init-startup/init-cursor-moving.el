@@ -44,7 +44,7 @@
 
 (use-package disable-mouse
   :config
-  (disable-mouse-global-mode t)
+  (disable-mouse-global-mode -1)
   )
 
 (provide 'init-cursor-moving)

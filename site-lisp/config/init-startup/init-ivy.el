@@ -25,6 +25,7 @@
          ("C-c b" . 'counsel-bookmark)
          ("C-c d" . 'counsel-descbinds)
          ("C-c o" . 'counsel-outline)
+         ("C-c i" . 'counsel-imenu)
          )
   :config
   (require 'swiper)

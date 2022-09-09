@@ -151,9 +151,6 @@
 [submodule "xr"]
 	path = site-lisp/extensions/xr
 	url = https://github.com/mattiase/xr.git
-[submodule "use-package"]
-	path = site-lisp/extensions/use-package
-	url = https://github.com/jwiegley/use-package.git
 [submodule "swiper"]
 	path = site-lisp/extensions/swiper
 	url = https://github.com/abo-abo/swiper
@@ -166,3 +163,6 @@
 [submodule "queue"]
 	path = site-lisp/extensions/queue
 	url = https://github.com/emacs-straight/queue.git
+[submodule "use-package"]
+	path = site-lisp/extensions/use-package
+	url = https://github.com/jwiegley/use-package.git

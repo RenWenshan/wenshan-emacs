@@ -1,5 +1,11 @@
 #+TITLE: GNU Emacs Configuration of Wenshan Ren
 
+- My operating system is Debian 10
+
+- The submodule idea was borrowed from https://github.com/manateelazycat/lazycat-emacs and I find it's easier (although slower at the beginning when cloning the submodules) to manage this way
+
+- Removed specific programming (hacking) related configuration as I want to keep this repository generic
+
 * Setup
 
   - clone this repository and run =git submodule update --init= to clone submodules.
@@ -18,7 +24,7 @@
       (require 'init)
     #+END_SRC
 
-  - start emacs, some external programs such as python-pylint might be required for certain features, but you can install them when needed.
+  - start emacs, some external programs such as sdcv might be required for certain features, but you can install them when needed.
 
 * Add New Extensions
 
@@ -69,7 +75,7 @@
     - remember recently opened files
     - remember windows configuration: see winner-mode's manual for details
     - use spaces for indentation instead of tabs: make it consistent
-    - turn on org-mode for txt files: most of my txt files are in org format
+    - +turn on org-mode for txt files: most of my txt files are in org format+
 
 *** Auto Save
 
@@ -111,7 +117,7 @@
 
      Move things up and down, sometimes it's easier than kill and yank.
 
-**** disable-mouse
+**** +disable-mouse+: still need to use the mouse/touchpad from time to time
 
      It's distracting to use a laptop when you touch the touch-pad without intention and it changes where your cursor is all the time.
 
@@ -154,9 +160,7 @@
 
 *** magit
 
-    The best git interface.
-
-*** magithub
+    My favorite git interface.
 
 ** Media Player
 
@@ -215,7 +219,16 @@
 
     这也是自由软件的妙处之一：源码可以活得更久远。
 
-    后来又在一些机器上改用 emacs-rime 自然码双拼，但配置过程较为复杂，不在此详述
+    后来又在一些机器上改用 emacs-rime + 自然码双拼 + phi-search 的方案 ，但配置过程较为复杂，不在此详述
+
+    此外推荐中文分词扩展包 https://github.com/cireu/jieba.el，我的配置：
+    #+begin_src emacs-lisp
+      (use-package jieba
+        :load-path "~/hack/lisp/jieba"
+        :commands jieba-mode
+        :config (setq jieba-server-start-args '("node" "~/hack/lisp/jieba/simple-jieba-server.js"))
+        :init (jieba-mode))
+    #+end_src
 
 *** sdcv
 
@@ -226,9 +239,9 @@
     英文写作提示，蛮好用的。
 
 ** Keybindings
-   All keybindings are set in =site-lisp/config/init-keybinding.el=. This is to have a central place for finding keybindings.
-
-   Besides that, hydra is used to provide "menus", by default you can press =s-c= to start the top menu.
+   - Some keybindings are set in =site-lisp/config/init-keybinding.el=
+   - Some keybindings are set in =:bind= in =use-package= statements
+   - =hydra= is used to provide "menus", by default you can press =s-c= to start the top menu.
 
 * Plans
 

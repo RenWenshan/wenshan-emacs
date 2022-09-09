@@ -14,9 +14,9 @@
 (setq recentf-max-saved-items 65536)
 (winner-mode t)				; record the changes in window configuration
 (setq-default indent-tabs-mode nil)     ; no tabs for indentation
-(add-to-list 'auto-mode-alist '("\\.txt\\'" . org-mode)) ; use org-mode for txt files
 (setq org-html-validation-link nil)
 (delete-selection-mode 1)               ; overwrite text by yank
 (column-number-mode 1)                  ; show column number in mode line
+(setq bookmark-save-flag t)             ; save bookmark when emacs quits
 
 (provide 'init-modify-emacs-defaults)
